@@ -1,0 +1,917 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width,initial-scale=1.0"/>
+<title>Borhan Auto Parts Centre | Original Motorcycle Spare Parts – Jessore, Bangladesh</title>
+<meta name="description" content="100% original motorcycle spare parts for Bajaj, Yamaha, Honda, Suzuki, TVS, Hero. RN Road, Jessore, Bangladesh. Fast delivery. WhatsApp: 01707659954"/>
+<meta name="keywords" content="Borhan Auto Parts, motorcycle spare parts Jessore, Bajaj Yamaha Honda Suzuki TVS Hero parts Bangladesh"/>
+<meta property="og:title" content="Borhan Auto Parts Centre | Original Motorcycle Spare Parts – Jessore"/>
+<meta property="og:description" content="100% original spare parts. Bajaj, Yamaha, Honda, Suzuki, TVS, Hero. Jessore Bangladesh. WhatsApp 01707659954"/>
+<meta property="og:type" content="website"/>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"AutoPartsStore","name":"Borhan Auto Parts Centre","telephone":"+8801707659954","address":{"@type":"PostalAddress","streetAddress":"RN Road","addressLocality":"Jessore","addressCountry":"BD"},"openingHours":"Mo-Sa 09:00-20:00","priceRange":"৳৳"}</script>
+<link rel="preconnect" href="https://fonts.googleapis.com"/>
+<link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@400;600;700;900&family=Barlow:wght@300;400;500;600&display=swap" rel="stylesheet"/>
+<style>
+/* ══ RESET & VARS ══ */
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth}
+:root{
+  --bg:#0a0c0f;--sur:#111318;--card:#16191f;--bor:#252830;
+  --acc:#e8a020;--acc2:#ff6b2b;--tx:#eaedf2;--mu:#7a7f8e;
+  --green:#2ecc71;--rad:12px;
+  --fh:'Barlow Condensed',sans-serif;--fb:'Barlow',sans-serif;
+}
+body{background:var(--bg);color:var(--tx);font-family:var(--fb);overflow-x:hidden;min-height:100vh}
+body::before{content:'';position:fixed;inset:0;opacity:.4;pointer-events:none;z-index:0;
+  background-image:url("data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.65' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)' opacity='0.04'/%3E%3C/svg%3E")}
+.page{position:relative;z-index:1;display:none;min-height:100vh}
+.page.active{display:block}
+.fade-in{animation:fadeUp .35s ease both}
+@keyframes fadeUp{from{opacity:0;transform:translateY(16px)}to{opacity:1;transform:translateY(0)}}
+
+/* ══ NAV ══ */
+nav{position:fixed;top:0;left:0;right:0;z-index:999;height:64px;
+  background:rgba(10,12,15,.96);backdrop-filter:blur(20px);
+  border-bottom:1px solid var(--bor);display:flex;align-items:center;
+  justify-content:space-between;padding:0 5%;gap:12px}
+.logo{font-family:var(--fh);font-weight:900;font-size:1.4rem;color:#fff;
+  cursor:pointer;letter-spacing:.02em;text-decoration:none;flex-shrink:0}
+.logo span{color:var(--acc)}
+.breadcrumb{display:flex;align-items:center;gap:6px;flex:1;flex-wrap:wrap;overflow:hidden}
+.crumb{font-family:var(--fh);font-size:.78rem;font-weight:600;letter-spacing:.06em;
+  text-transform:uppercase;color:var(--mu);cursor:pointer;background:none;border:none;
+  padding:0;transition:color .2s;white-space:nowrap}
+.crumb:hover,.crumb.cur{color:var(--acc)}
+.sep{color:var(--bor);font-size:.85rem;flex-shrink:0}
+.nav-wa{display:inline-flex;align-items:center;gap:7px;background:#25D366;color:#fff;
+  font-family:var(--fh);font-weight:700;font-size:.8rem;letter-spacing:.06em;text-transform:uppercase;
+  padding:7px 14px;border-radius:8px;text-decoration:none;transition:all .2s;white-space:nowrap;flex-shrink:0}
+.nav-wa:hover{background:#1db85a;transform:translateY(-1px)}
+
+/* ══ HERO ══ */
+.hero{padding:88px 5% 52px;position:relative;overflow:hidden;border-bottom:1px solid var(--bor)}
+.hero-grid{position:absolute;inset:0;pointer-events:none;
+  background-image:linear-gradient(rgba(232,160,32,.035) 1px,transparent 1px),
+    linear-gradient(90deg,rgba(232,160,32,.035) 1px,transparent 1px);
+  background-size:50px 50px}
+.hero-glow{position:absolute;top:-80px;right:-60px;width:450px;height:450px;border-radius:50%;
+  background:radial-gradient(circle,rgba(232,160,32,.09) 0%,transparent 70%);pointer-events:none}
+.hero-inner{position:relative;z-index:1;max-width:680px}
+.tag{display:inline-flex;align-items:center;gap:7px;background:rgba(232,160,32,.12);
+  border:1px solid rgba(232,160,32,.3);color:var(--acc);font-family:var(--fh);font-size:.78rem;
+  font-weight:700;letter-spacing:.14em;text-transform:uppercase;padding:5px 14px;
+  border-radius:100px;margin-bottom:20px}
+.dot{width:6px;height:6px;border-radius:50%;background:var(--acc);animation:pulse 1.5s infinite;flex-shrink:0}
+@keyframes pulse{0%,100%{opacity:1;transform:scale(1)}50%{opacity:.4;transform:scale(1.6)}}
+h1{font-family:var(--fh);font-weight:900;font-size:clamp(2.2rem,6vw,4.2rem);
+  line-height:.93;text-transform:uppercase;margin-bottom:14px;letter-spacing:-.01em}
+h1 em{font-style:normal;color:var(--acc);display:block}
+.hero-sub{color:var(--mu);font-size:1.05rem;max-width:520px;margin-bottom:36px;line-height:1.65}
+.hero-sub strong{color:var(--tx)}
+.hero-btns{display:flex;gap:14px;flex-wrap:wrap}
+.btn-primary{display:inline-flex;align-items:center;gap:9px;background:var(--acc);color:#000;
+  font-family:var(--fh);font-weight:700;font-size:.95rem;letter-spacing:.06em;text-transform:uppercase;
+  padding:14px 28px;border-radius:8px;text-decoration:none;border:none;cursor:pointer;transition:all .2s}
+.btn-primary:hover{background:#f5b030;transform:translateY(-2px);box-shadow:0 8px 28px rgba(232,160,32,.3)}
+.btn-outline{display:inline-flex;align-items:center;gap:9px;background:transparent;color:var(--tx);
+  font-family:var(--fh);font-weight:700;font-size:.95rem;letter-spacing:.06em;text-transform:uppercase;
+  padding:14px 28px;border-radius:8px;text-decoration:none;border:1.5px solid var(--bor);
+  cursor:pointer;transition:all .2s}
+.btn-outline:hover{border-color:var(--acc);color:var(--acc);transform:translateY(-2px)}
+
+/* ══ STATS STRIP ══ */
+.stats-strip{background:var(--sur);border-top:1px solid var(--bor);border-bottom:1px solid var(--bor);
+  padding:28px 5%;display:flex;justify-content:center;gap:0;flex-wrap:wrap}
+.stat-item{text-align:center;padding:12px 40px;border-right:1px solid var(--bor)}
+.stat-item:last-child{border-right:none}
+.stat-num{font-family:var(--fh);font-weight:900;font-size:2.2rem;color:var(--acc);line-height:1}
+.stat-label{font-size:.75rem;color:var(--mu);letter-spacing:.1em;text-transform:uppercase;margin-top:4px}
+
+/* ══ SECTIONS ══ */
+section{padding:80px 5%;position:relative;z-index:1}
+.sec-label{font-family:var(--fh);font-size:.75rem;font-weight:700;letter-spacing:.2em;
+  text-transform:uppercase;color:var(--acc);margin-bottom:10px}
+h2{font-family:var(--fh);font-weight:900;font-size:clamp(1.8rem,4vw,2.8rem);
+  text-transform:uppercase;line-height:1.05;margin-bottom:14px}
+h2 span{color:var(--acc)}
+.sec-desc{color:var(--mu);max-width:520px;margin-bottom:44px;font-size:1rem;line-height:1.65}
+
+/* ══ BRAND CARDS (homepage) ══ */
+.brands-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(190px,1fr));gap:16px}
+.brand-card{background:var(--card);border:1.5px solid var(--bor);border-radius:var(--rad);
+  padding:28px 18px;cursor:pointer;text-align:center;transition:all .25s;position:relative;overflow:hidden}
+.brand-card:hover{transform:translateY(-5px)}
+.brand-card .bar{position:absolute;bottom:0;left:0;right:0;height:3px;
+  background:linear-gradient(90deg,var(--acc),var(--acc2));transform:scaleX(0);
+  transform-origin:left;transition:transform .3s}
+.brand-card:hover .bar{transform:scaleX(1)}
+.card-emoji{font-size:2.6rem;display:block;margin-bottom:12px}
+.card-title{font-family:var(--fh);font-weight:700;font-size:1.05rem;text-transform:uppercase;letter-spacing:.04em}
+.card-sub{font-size:.76rem;color:var(--mu);margin-top:4px}
+
+/* ══ WHY US ══ */
+.why-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(260px,1fr));gap:18px}
+.why-card{background:var(--card);border:1.5px solid var(--bor);border-radius:var(--rad);
+  padding:30px;transition:transform .2s}
+.why-card:hover{transform:translateY(-3px)}
+.why-icon{width:50px;height:50px;border-radius:12px;
+  background:linear-gradient(135deg,rgba(232,160,32,.18),rgba(255,107,43,.08));
+  border:1px solid rgba(232,160,32,.2);display:flex;align-items:center;
+  justify-content:center;font-size:1.4rem;margin-bottom:18px}
+.why-title{font-family:var(--fh);font-weight:700;font-size:1.05rem;text-transform:uppercase;margin-bottom:8px}
+.why-desc{font-size:.88rem;color:var(--mu);line-height:1.65}
+
+/* ══ CONTACT ══ */
+.contact-sec{background:var(--sur);border-top:1px solid var(--bor);border-bottom:1px solid var(--bor)}
+.contact-grid{display:grid;grid-template-columns:1fr 1fr;gap:40px;align-items:start}
+@media(max-width:700px){.contact-grid{grid-template-columns:1fr}}
+.contact-items{display:flex;flex-direction:column;gap:14px}
+.contact-item{display:flex;align-items:flex-start;gap:14px;padding:18px;
+  background:var(--bg);border:1px solid var(--bor);border-radius:var(--rad)}
+.ci-icon{width:42px;height:42px;background:rgba(232,160,32,.1);border-radius:10px;
+  display:flex;align-items:center;justify-content:center;font-size:1.2rem;flex-shrink:0}
+.ci-lbl{font-size:.72rem;color:var(--mu);text-transform:uppercase;letter-spacing:.1em;margin-bottom:3px}
+.ci-val{font-size:.95rem;font-weight:500}
+.ci-val a{color:var(--acc);text-decoration:none}
+.wa-box{background:linear-gradient(135deg,#25D366,#128C7E);border-radius:var(--rad);
+  padding:34px;display:flex;flex-direction:column;align-items:center;text-align:center;gap:12px}
+.wa-box-icon{font-size:2.8rem}
+.wa-box-title{font-family:var(--fh);font-weight:900;font-size:1.5rem;text-transform:uppercase;color:#fff}
+.wa-box-sub{color:rgba(255,255,255,.8);font-size:.9rem}
+.wa-box-btn{display:inline-flex;align-items:center;gap:9px;background:#fff;color:#128C7E;
+  font-family:var(--fh);font-weight:700;font-size:1rem;text-transform:uppercase;letter-spacing:.06em;
+  padding:13px 32px;border-radius:8px;text-decoration:none;transition:all .2s;margin-top:6px}
+.wa-box-btn:hover{background:#f0fff4;transform:translateY(-2px);box-shadow:0 6px 20px rgba(0,0,0,.2)}
+.map-wrap{border-radius:var(--rad);overflow:hidden;border:1px solid var(--bor);height:320px;margin-top:44px}
+.map-wrap iframe{width:100%;height:100%;border:none;filter:invert(90%) hue-rotate(180deg)}
+
+/* ══ FOOTER ══ */
+footer{background:var(--sur);border-top:1px solid var(--bor);padding:52px 5% 24px}
+.footer-grid{display:grid;grid-template-columns:2fr 1fr 1fr;gap:44px;
+  padding-bottom:44px;border-bottom:1px solid var(--bor);margin-bottom:24px}
+@media(max-width:680px){.footer-grid{grid-template-columns:1fr;gap:28px}}
+.footer-logo{font-family:var(--fh);font-weight:900;font-size:1.7rem;text-transform:uppercase;
+  color:#fff;margin-bottom:10px}
+.footer-logo span{color:var(--acc)}
+.footer-desc{color:var(--mu);font-size:.88rem;line-height:1.7;max-width:300px}
+.footer-col-title{font-family:var(--fh);font-weight:700;font-size:.82rem;letter-spacing:.14em;
+  text-transform:uppercase;color:var(--acc);margin-bottom:14px}
+.footer-links{list-style:none;display:flex;flex-direction:column;gap:9px}
+.footer-links a,.footer-links button{color:var(--mu);text-decoration:none;font-size:.88rem;
+  transition:color .2s;background:none;border:none;cursor:pointer;padding:0;text-align:left;font-family:var(--fb)}
+.footer-links a:hover,.footer-links button:hover{color:var(--tx)}
+.footer-bottom{display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:10px}
+.footer-copy{font-size:.8rem;color:var(--mu)}
+.footer-copy strong{color:var(--acc)}
+
+/* ══ INNER PAGES ══ */
+.inner-page{padding-top:64px}
+.inner-hero{padding:48px 5% 40px;position:relative;overflow:hidden;border-bottom:1px solid var(--bor)}
+.inner-hero-grid{position:absolute;inset:0;pointer-events:none;
+  background-image:linear-gradient(rgba(232,160,32,.03) 1px,transparent 1px),
+    linear-gradient(90deg,rgba(232,160,32,.03) 1px,transparent 1px);
+  background-size:50px 50px}
+.inner-hero-inner{position:relative;z-index:1}
+.pgrid{display:grid;gap:14px;padding:32px 5%}
+.pgrid-3{grid-template-columns:repeat(auto-fill,minmax(200px,1fr))}
+.pgrid-4{grid-template-columns:repeat(auto-fill,minmax(185px,1fr))}
+.pgrid-5{grid-template-columns:repeat(auto-fill,minmax(170px,1fr))}
+
+/* model card */
+.model-card{background:var(--card);border:1.5px solid var(--bor);border-radius:var(--rad);
+  padding:22px 16px;cursor:pointer;text-align:center;transition:all .25s;position:relative;overflow:hidden}
+.model-card:hover{transform:translateY(-4px)}
+.model-card .bar{position:absolute;bottom:0;left:0;right:0;height:3px;transform:scaleX(0);
+  transform-origin:left;transition:transform .3s}
+.model-card:hover .bar{transform:scaleX(1)}
+
+/* cat card */
+.cat-card{background:var(--card);border:1.5px solid var(--bor);border-radius:var(--rad);
+  padding:18px 16px;cursor:pointer;display:flex;align-items:center;gap:13px;transition:all .25s}
+.cat-card:hover{transform:translateY(-3px)}
+.cat-icon-box{width:44px;height:44px;border-radius:10px;background:rgba(232,160,32,.12);
+  display:flex;align-items:center;justify-content:center;font-size:1.35rem;flex-shrink:0}
+.cat-name{font-family:var(--fh);font-weight:700;font-size:.95rem;text-transform:uppercase}
+.cat-count{font-size:.75rem;color:var(--mu);margin-top:2px}
+
+/* search */
+.search-wrap{padding:18px 5% 0}
+.search-wrap input{width:100%;max-width:420px;background:var(--sur);border:1.5px solid var(--bor);
+  border-radius:8px;color:var(--tx);font-family:var(--fb);font-size:.95rem;padding:10px 14px;
+  outline:none;transition:border-color .2s}
+.search-wrap input:focus{border-color:var(--acc)}
+
+/* part card */
+.part-card{background:var(--card);border:1.5px solid var(--bor);border-radius:var(--rad);
+  padding:16px;cursor:pointer;transition:all .25s}
+.part-card:hover{transform:translateY(-3px)}
+.pt-top{display:flex;justify-content:space-between;align-items:flex-start;margin-bottom:8px}
+.pt-name{font-family:var(--fh);font-weight:700;font-size:.92rem;text-transform:uppercase;
+  letter-spacing:.03em;flex:1;margin-right:7px;line-height:1.25}
+.pt-price{font-family:var(--fh);font-weight:900;font-size:1.1rem;color:var(--acc);white-space:nowrap}
+.pt-sku{font-size:.68rem;color:var(--mu);margin-bottom:7px;font-family:monospace;letter-spacing:.04em}
+.pt-bot{display:flex;justify-content:space-between;align-items:center}
+.stock-badge{display:inline-flex;align-items:center;gap:5px;background:rgba(46,204,113,.1);
+  border:1px solid rgba(46,204,113,.25);color:var(--green);font-size:.7rem;
+  font-family:var(--fh);font-weight:700;letter-spacing:.08em;text-transform:uppercase;
+  padding:3px 8px;border-radius:100px}
+.sdot{width:5px;height:5px;border-radius:50%;background:var(--green)}
+.ct-lbl{font-size:.72rem;color:var(--mu)}
+.wa-order-btn{display:flex;align-items:center;justify-content:center;gap:7px;background:#25D366;
+  color:#fff;font-family:var(--fh);font-weight:700;font-size:.76rem;text-transform:uppercase;
+  letter-spacing:.06em;padding:7px 10px;border-radius:7px;border:none;cursor:pointer;
+  width:100%;margin-top:10px;transition:all .2s}
+.wa-order-btn:hover{background:#1db85a}
+.no-res{grid-column:1/-1;text-align:center;padding:60px 0;color:var(--mu)}
+.no-res .big{font-size:3rem;margin-bottom:10px}
+.no-res p{font-family:var(--fh);font-size:1.1rem;text-transform:uppercase}
+
+/* product detail */
+.det-wrap{padding:32px 5%;max-width:1100px;margin:0 auto}
+.det-grid{display:grid;grid-template-columns:1fr 1.2fr;gap:34px;align-items:start}
+@media(max-width:700px){.det-grid{grid-template-columns:1fr}.breadcrumb{display:none}}
+.img-box{background:var(--card);border:1.5px solid var(--bor);border-radius:16px;aspect-ratio:1;
+  display:flex;flex-direction:column;align-items:center;justify-content:center;
+  gap:12px;position:relative;overflow:hidden}
+.img-bg-grid{position:absolute;inset:0;pointer-events:none;
+  background-image:linear-gradient(rgba(232,160,32,.03) 1px,transparent 1px),
+    linear-gradient(90deg,rgba(232,160,32,.03) 1px,transparent 1px);
+  background-size:28px 28px}
+.img-emoji{font-size:5.5rem;position:relative;z-index:1}
+.img-lbl{font-family:var(--fh);font-size:.82rem;color:var(--mu);text-transform:uppercase;
+  letter-spacing:.1em;position:relative;z-index:1;text-align:center;padding:0 10px}
+.meta-grid{display:grid;grid-template-columns:1fr 1fr;gap:9px;margin-top:13px}
+.meta-item{background:var(--sur);border:1px solid var(--bor);border-radius:9px;padding:11px 13px}
+.meta-lbl{font-size:.68rem;color:var(--mu);text-transform:uppercase;letter-spacing:.1em;margin-bottom:3px}
+.meta-val{font-family:var(--fh);font-weight:700;font-size:.9rem}
+.det-brand-tag{display:inline-flex;align-items:center;gap:7px;border:1px solid rgba(232,160,32,.25);
+  color:var(--acc);font-family:var(--fh);font-size:.74rem;font-weight:700;letter-spacing:.14em;
+  text-transform:uppercase;padding:3px 13px;border-radius:100px;margin-bottom:12px;background:rgba(232,160,32,.1)}
+.det-name{font-family:var(--fh);font-weight:900;font-size:clamp(1.5rem,3vw,2.3rem);
+  text-transform:uppercase;line-height:1.05;margin-bottom:5px}
+.det-model{font-size:.86rem;color:var(--mu);margin-bottom:16px}
+.price-row{display:flex;align-items:baseline;gap:13px;margin-bottom:16px}
+.det-price{font-family:var(--fh);font-weight:900;font-size:2.1rem;color:var(--acc)}
+.det-desc{color:#9aa0af;line-height:1.75;margin-bottom:16px;font-size:.93rem}
+.wa-big-btn{display:inline-flex;align-items:center;justify-content:center;gap:9px;
+  background:#25D366;color:#fff;font-family:var(--fh);font-weight:700;font-size:.95rem;
+  text-transform:uppercase;letter-spacing:.06em;padding:13px 24px;border-radius:9px;
+  text-decoration:none;transition:all .2s;width:100%;border:none;cursor:pointer}
+.wa-big-btn:hover{background:#1db85a;transform:translateY(-2px);box-shadow:0 8px 22px rgba(37,211,102,.3)}
+.notes-box{font-size:.83rem;color:var(--mu);margin-bottom:16px;padding:10px 13px;
+  background:rgba(232,160,32,.06);border-radius:8px;border-left:3px solid var(--acc);line-height:1.6}
+
+/* admin */
+.admin-lock{background:var(--card);border:1.5px solid var(--bor);border-radius:13px;
+  padding:26px;margin-top:20px;text-align:center}
+.lock-icon{font-size:2.3rem;margin-bottom:8px}
+.lock-title{font-family:var(--fh);font-weight:700;font-size:.95rem;text-transform:uppercase;
+  letter-spacing:.1em;color:var(--mu);margin-bottom:14px}
+.lock-input{width:100%;max-width:260px;background:var(--bg);border:1.5px solid var(--bor);
+  border-radius:8px;color:var(--tx);font-family:var(--fb);font-size:.95rem;
+  padding:9px 14px;outline:none;transition:border-color .2s;text-align:center;
+  letter-spacing:.2em;margin-bottom:10px}
+.lock-input:focus{border-color:var(--acc)}
+.lock-btn{background:var(--acc);color:#000;font-family:var(--fh);font-weight:700;
+  font-size:.9rem;text-transform:uppercase;letter-spacing:.08em;padding:9px 26px;
+  border-radius:8px;border:none;cursor:pointer;transition:all .2s}
+.lock-btn:hover{background:#f5b030}
+.lock-err{color:#e74c3c;font-size:.8rem;margin-top:7px;display:none}
+.edit-section{background:var(--card);border:1.5px solid var(--bor);border-radius:13px;padding:22px;margin-top:20px}
+.edit-head{display:flex;justify-content:space-between;align-items:center;margin-bottom:16px}
+.edit-title{font-family:var(--fh);font-weight:700;font-size:.9rem;text-transform:uppercase;
+  letter-spacing:.1em;color:var(--acc)}
+.logout-btn{background:rgba(231,76,60,.12);color:#e74c3c;border:1px solid rgba(231,76,60,.25);
+  font-family:var(--fh);font-size:.72rem;font-weight:700;text-transform:uppercase;
+  letter-spacing:.08em;padding:5px 11px;border-radius:6px;cursor:pointer;transition:all .2s}
+.logout-btn:hover{background:rgba(231,76,60,.22)}
+.fl{display:block;font-size:.7rem;color:var(--mu);text-transform:uppercase;
+  letter-spacing:.1em;margin-bottom:5px}
+.fi{width:100%;background:var(--bg);border:1.5px solid var(--bor);border-radius:7px;
+  color:var(--tx);font-family:var(--fb);font-size:.9rem;padding:9px 13px;
+  outline:none;transition:border-color .2s;margin-bottom:12px}
+.fi:focus{border-color:var(--acc)}
+.fta{width:100%;background:var(--bg);border:1.5px solid var(--bor);border-radius:7px;
+  color:var(--tx);font-family:var(--fb);font-size:.9rem;padding:9px 13px;
+  outline:none;resize:vertical;min-height:88px;transition:border-color .2s;margin-bottom:12px}
+.fta:focus{border-color:var(--acc)}
+.field-row{display:grid;grid-template-columns:1fr 1fr;gap:10px}
+.save-btn{background:var(--acc);color:#000;font-family:var(--fh);font-weight:700;
+  font-size:.9rem;text-transform:uppercase;letter-spacing:.06em;padding:11px 26px;
+  border-radius:7px;border:none;cursor:pointer;transition:all .2s;
+  display:inline-flex;align-items:center;gap:7px}
+.save-btn:hover{background:#f5b030;transform:translateY(-1px)}
+.saved-ok{display:none;align-items:center;gap:6px;background:rgba(46,204,113,.13);
+  border:1px solid rgba(46,204,113,.28);color:var(--green);font-family:var(--fh);
+  font-size:.8rem;font-weight:700;letter-spacing:.08em;text-transform:uppercase;
+  padding:7px 13px;border-radius:7px;margin-left:10px}
+
+/* float wa */
+.float-wa{position:fixed;bottom:24px;right:24px;width:54px;height:54px;border-radius:50%;
+  background:#25D366;display:flex;align-items:center;justify-content:center;
+  font-size:1.55rem;text-decoration:none;box-shadow:0 4px 18px rgba(37,211,102,.4);
+  z-index:997;transition:all .2s}
+.float-wa:hover{transform:scale(1.1);box-shadow:0 7px 26px rgba(37,211,102,.5)}
+
+@media(max-width:540px){
+  .stats-strip{gap:0}.stat-item{padding:10px 18px;border-right:none;border-bottom:1px solid var(--bor)}
+  .stat-item:last-child{border-bottom:none}
+  .hero-btns{flex-direction:column}.btn-primary,.btn-outline{justify-content:center}
+  .nav-wa span{display:none}
+}
+</style>
+</head>
+<body>
+
+<!-- NAV -->
+<nav>
+  <a class="logo" onclick="goHome()">BORHAN <span>AUTO</span></a>
+  <div class="breadcrumb" id="breadcrumb"></div>
+  <a class="nav-wa" href="https://wa.me/8801707659954" target="_blank">💬 <span>WhatsApp</span></a>
+</nav>
+
+<!-- PAGES -->
+<div class="page active" id="pg-home"></div>
+<div class="page" id="pg-brands"></div>
+<div class="page" id="pg-models"></div>
+<div class="page" id="pg-categories"></div>
+<div class="page" id="pg-parts"></div>
+<div class="page" id="pg-product"></div>
+
+<!-- FLOAT WA -->
+<a class="float-wa" href="https://wa.me/8801707659954" target="_blank" title="Order on WhatsApp">💬</a>
+
+<script>
+/* ════════════════════════════════
+   ADMIN PASSWORD — CHANGE THIS
+════════════════════════════════ */
+const ADMIN_PASS = 'borhan2024';
+
+/* ════════════════════════════════
+   DATA
+════════════════════════════════ */
+const BRANDS = {
+  Bajaj:{color:'#ff6b2b',emoji:'🟠',
+    models:['Pulsar NS160','Pulsar NS200','Pulsar 150','Pulsar 220F','Avenger 150','Avenger 220','CT100','Platina 100','Discover 125','Dominar 400'],
+    cats:{Engine:['Piston Kit','Piston Ring Set','Cylinder Head','Valve Set','Camshaft','Crankshaft','Engine Gasket Kit','Oil Filter','Engine Oil Seal','Timing Chain'],
+      Suspension:['Front Fork Assembly','Rear Shock Absorber','Fork Oil Seal','Fork Spring','Steering Bearing Kit','Swingarm Bush'],
+      Brakes:['Front Brake Disc','Rear Brake Drum','Brake Pad Set','Brake Cable','Master Cylinder','Brake Lever'],
+      Electrical:['CDI Unit','Ignition Coil','Spark Plug','Headlight Bulb','Battery','Rectifier Regulator','Stator Coil','Horn','Flasher Relay'],
+      'Fuel System':['Carburetor','Fuel Tank','Fuel Cock','Air Filter','Fuel Pipe','Choke Cable'],
+      Transmission:['Drive Chain','Front Sprocket','Rear Sprocket','Chain Kit','Clutch Plate Set','Clutch Cable','Gear Shift Fork'],
+      'Body Parts':['Front Fairing','Rear Panel','Fuel Tank Cover','Front Mudguard','Rear Mudguard','Side Panel','Seat','Headlight Visor'],
+      Cooling:['Radiator','Water Pump','Thermostat','Coolant Reservoir','Radiator Cap']}},
+  Yamaha:{color:'#1a5eff',emoji:'🔵',
+    models:['FZS V3','FZS V2','FZ-S Fi','R15 V4','R15 V3','MT-15','Fazer FI','Saluto','YBR 125','Crux R'],
+    cats:{Engine:['Piston Kit','Cylinder Head','Valve Set','Camshaft','Crankshaft Bearing','Engine Gasket Set','Oil Filter','Timing Belt','Oil Pump','Rocker Arm'],
+      Suspension:['Front Fork Set','Rear Shock Absorber','Fork Seal Kit','Steering Stem Bearing','Front Fork Oil','Rear Suspension Link'],
+      Brakes:['Front Disc Rotor','Rear Disc Drum','Brake Pad Set','Brake Fluid','Brake Caliper','ABS Sensor'],
+      Electrical:['CDI ECU Unit','Spark Plug','Battery','Stator Coil','Regulator Rectifier','Headlight Assembly','Turn Signal','Tail Light'],
+      'Fuel System':['Fuel Injector','Carburetor','Fuel Pump','Air Filter','Fuel Tank','Air Box Assembly','Throttle Body'],
+      Transmission:['Chain Kit DID','Front Sprocket','Rear Sprocket','Clutch Disc Set','Clutch Spring','Gear Fork Set','Primary Drive Gear'],
+      'Body Parts':['Front Cowl','Side Cowl','Rear Panel','Fuel Tank Cowl','Front Fender','Rear Fender','Side Mirrors','Seat Cowl'],
+      Cooling:['Radiator Assembly','Coolant Hose Set','Water Pump Impeller','Thermostat Valve','Radiator Fan']}},
+  Honda:{color:'#cc0000',emoji:'🔴',
+    models:['CB Hornet 160R','CB Shine','CB Shine SP','Livo','Dream Neo','Unicorn 160','X-Blade','Navi','CB300R','CB500F'],
+    cats:{Engine:['Piston Kit','Cylinder Liner','Head Gasket','Valve Stem Seal','Crankshaft','Camshaft Chain','Oil Filter','Engine Mount Bolt Set','Cylinder Head Bolt','Rocker Arm Assembly'],
+      Suspension:['Telescopic Fork','Monoshock Absorber','Fork Oil Seal','Pro-Link Bearing','Steering Cone Set','Front Axle'],
+      Brakes:['Combi Brake System','Disc Pad','Drum Shoe','Brake Hose','Brake Switch','Caliper Piston'],
+      Electrical:['PGM-Fi ECU','Ignition Switch','Spark Plug Iridium','Battery MF','Charging Coil','Meter Assembly','LED Headlight','Kill Switch'],
+      'Fuel System':['PGM-Fi Injector','Air Cleaner','Fuel Tank','Fuel Pump Module','Throttle Body','EVAP System'],
+      Transmission:['RK Chain Kit','Sprocket Set','Clutch Friction Disc','Clutch Spring','Drive Shaft Oil Seal','Gear Shift Cam'],
+      'Body Parts':['Front Cowl','Tank Shroud','Side Cover','Front Fender','Rear Fender','Under Cowl','Grab Rail','Windscreen'],
+      Cooling:['Radiator','Coolant','Water Pump Body','Fan Motor','Temperature Sensor','Coolant Pipe']}},
+  Suzuki:{color:'#003399',emoji:'🔵',
+    models:['Gixxer SF','Gixxer 155','Hayate EP','Access 125','Burgman Street','GSX-S150','Bandit 150','Lets 110','Swish 125','Address 110'],
+    cats:{Engine:['Piston Assembly','Cylinder Kit','Head Gasket Set','Valve Assembly','Crankshaft Assy','Oil Filter Element','Engine Bolt Kit','Cam Chain Tensioner','Oil Pump Rotor','Cylinder Head Cover'],
+      Suspension:['Front Fork Inner Tube','Rear Shock Unit','Fork Dust Seal','Linkage Bearing','Steering Head Race','Bottom Link'],
+      Brakes:['Disc Brake Pad','Drum Brake Shoe','Brake Master Cylinder','Front Caliper Assy','Brake Lever Set','Brake Light Switch'],
+      Electrical:['Fuel Injection ECU','Ignition Coil','NGK Spark Plug','Battery','Voltage Regulator','Combination Meter','Tail Light LED','Signal Relay'],
+      'Fuel System':['Fuel Injector Assy','Air Filter Element','Fuel Tank Assy','Intake Manifold','Throttle Body Assy','Fuel Hose'],
+      Transmission:['Drive Chain Set','Sprocket Front','Sprocket Rear','Clutch Disc Kit','Clutch Cover Gasket','Transmission Oil Seal'],
+      'Body Parts':['Headlamp Visor','Side Fairing','Rear Fender','Seat Assembly','Inner Panel','Tank Cover','Front Cowling','Foot Peg Set'],
+      Cooling:['Radiator Assy','Coolant 1L','Radiator Hose','Water Pump Cover','Thermostat Housing']}},
+  TVS:{color:'#f5a623',emoji:'🟡',
+    models:['Apache RTR 160 4V','Apache RTR 200 4V','Apache RR 310','Raider 125','Ntorq 125','Jupiter 110','XL100','Star City Plus','Sport','Metro Plus'],
+    cats:{Engine:['Piston Kit','Cylinder Head Assy','Valve Seat','Timing Chain Kit','Crankshaft Bearing','Head Gasket','Oil Filter','Engine Oil Seal Set','Carburetor Jet Kit','Engine Mounting Rubber'],
+      Suspension:['Front Fork Assembly','Rear Monoshock','Fork Seal Kit','Steering Bearing','Suspension Bush','Front Axle Nut'],
+      Brakes:['Petal Disc Rotor','ABS Module','Brake Pad','Drum Shoes','Brake Cable Set','Hydraulic Hose','Caliper Pin'],
+      Electrical:['RTR ECU','Racing Spark Plug','Battery MF','Stator Coil','Voltage Regulator','Digital Meter','LED DRL Strip','Horn'],
+      'Fuel System':['Carb Assembly','Fuel Injector','Air Filter','Fuel Tank','Fuel Tap','Fuel Line Kit','Air Box Lid'],
+      Transmission:['Chain Kit Gold','Front Sprocket 14T','Rear Sprocket 40T','Clutch Kit','Clutch Cable','Primary Gear','Gear Shaft'],
+      'Body Parts':['Front Fairing','Belly Pan','Tank Extensions','Rear Hugger','Front Fender','Side Panels','Pillion Grab Bar','Visor'],
+      Cooling:['Radiator Assembly','Fan Motor','Coolant','Water Pump','Hose Clamp Set']}},
+  Hero:{color:'#e11d48',emoji:'🟢',
+    models:['Splendor Plus','Splendor Pro','HF Deluxe','Passion Pro','Glamour','Xpulse 200','Xtreme 160R','Destini 125','Maestro Edge','Pleasure Plus'],
+    cats:{Engine:['Piston Kit','Cylinder Kit','Cylinder Head','Valve Set','Crankshaft','Engine Gasket Set','Oil Filter','Timing Chain','Rocker Arm','Engine Oil Seal'],
+      Suspension:['Telescopic Fork','Rear Shock Absorber','Fork Oil Seal','Bearing Set','Front Axle','Rear Axle'],
+      Brakes:['Drum Brake Shoe','Disc Brake Pad','Brake Cable Set','Brake Lever','Brake Panel','Brake Cam'],
+      Electrical:['CDI Module','Spark Plug','Battery','Ignition Coil','Charging Coil','Digital Meter','LED Headlight','Turn Indicator'],
+      'Fuel System':['Carburetor Assy','Air Filter','Fuel Tank','Fuel Tap','Fuel Pipe','Choke Assembly','Air Box'],
+      Transmission:['Chain Kit','Front Sprocket','Rear Sprocket','Clutch Plate Set','Clutch Spring','Gear Box Kit','Primary Shaft'],
+      'Body Parts':['Headlight Visor','Leg Shield','Side Panel','Rear Grab Rail','Front Mudguard','Rear Mudguard','Seat Foam','Fuel Tank Cap'],
+      Cooling:['Oil Cooler','Cooling Fin Set','Temperature Switch']}}
+};
+
+const CAT_ICONS={Engine:'🔧',Suspension:'🛞',Brakes:'🛑',Electrical:'⚡','Fuel System':'⛽',Transmission:'⚙️','Body Parts':'🛡️',Cooling:'🌡️'};
+
+/* ════════════════════════════════
+   STATE & HISTORY
+════════════════════════════════ */
+let S={page:'home',brand:null,model:null,cat:null,part:null,adminUnlocked:false};
+let _histPushed = false;
+
+/* ════════════════════════════════
+   BROWSER BACK/FORWARD SUPPORT
+════════════════════════════════ */
+window.addEventListener('popstate', function(e){
+  if(e.state && e.state.page){
+    const st = e.state;
+    S = {...S, page:st.page, brand:st.brand||null, model:st.model||null,
+         cat:st.cat||null, part:st.part||null, adminUnlocked:false};
+    _histPushed = true; // don't push again
+    renderCurrentPage();
+    updateBreadcrumb();
+    _histPushed = false;
+  } else {
+    S={page:'home',brand:null,model:null,cat:null,part:null,adminUnlocked:false};
+    renderCurrentPage();
+    updateBreadcrumb();
+  }
+});
+
+function pushState(page, extra){
+  if(_histPushed) return;
+  const st={page, brand:S.brand, model:S.model, cat:S.cat, part:S.part, ...extra};
+  history.pushState(st, '', '#'+page+(S.brand?'/'+encodeURIComponent(S.brand):''));
+}
+
+/* ════════════════════════════════
+   HELPERS
+════════════════════════════════ */
+function h(s){let v=0;for(let c of s)v=(v*31+c.charCodeAt(0))&0xffff;return v;}
+function calcPrice(b,m,p){return 150+(h(b+m+p)%4351);}
+function calcStock(b,m,p){return[3,5,8,12,15,20,25][h(b+m+p+b)%7];}
+function calcSku(b,m,p){
+  const B=b.slice(0,2).toUpperCase(),M=m.replace(/\s/g,'').slice(0,3).toUpperCase(),P=p.replace(/\s/g,'').slice(0,3).toUpperCase();
+  return `${B}-${M}-${P}${(h(b+m+p)&0xfff).toString(16).toUpperCase().padStart(3,'0')}`;
+}
+function skey(b,m,p){return'bap_'+calcSku(b,m,p);}
+function loadPart(b,m,p){try{return JSON.parse(localStorage.getItem(skey(b,m,p)))||{};}catch{return{};}}
+function savePart(b,m,p,d){localStorage.setItem(skey(b,m,p),JSON.stringify(d));}
+
+function showPage(id){
+  document.querySelectorAll('.page').forEach(p=>{p.classList.remove('active');});
+  const pg=document.getElementById('pg-'+id);
+  pg.classList.add('active');
+  pg.classList.remove('fade-in');
+  void pg.offsetWidth;
+  pg.classList.add('fade-in');
+  window.scrollTo({top:0,behavior:'smooth'});
+}
+
+function renderCurrentPage(){
+  switch(S.page){
+    case 'home': renderHome(); showPage('home'); break;
+    case 'brands': renderBrands(); showPage('brands'); break;
+    case 'models': renderModels(); showPage('models'); break;
+    case 'categories': renderCategories(); showPage('categories'); break;
+    case 'parts': renderParts(); showPage('parts'); break;
+    case 'product': renderProduct(); showPage('product'); break;
+  }
+}
+
+/* ════════════════════════════════
+   BREADCRUMB
+════════════════════════════════ */
+function updateBreadcrumb(){
+  const bc=document.getElementById('breadcrumb');
+  const items=[];
+  if(S.page!=='home') items.push({l:'Brands',fn:'navBrands'});
+  if(S.brand) items.push({l:S.brand,fn:'navModels'});
+  if(S.model) items.push({l:S.model,fn:'navCats'});
+  if(S.cat) items.push({l:S.cat,fn:'navParts'});
+  if(S.part) items.push({l:S.part.length>18?S.part.slice(0,16)+'…':S.part,fn:null});
+  bc.innerHTML=items.map((c,i)=>`
+    ${i>0?'<span class="sep">›</span>':''}
+    <button class="crumb${i===items.length-1?' cur':''}" ${c.fn?`onclick="${c.fn}()"`:''}>${c.l}</button>
+  `).join('');
+}
+
+/* ════════════════════════════════
+   NAV FUNCTIONS
+════════════════════════════════ */
+function goHome(){S={page:'home',brand:null,model:null,cat:null,part:null,adminUnlocked:false};pushState('home');renderHome();updateBreadcrumb();showPage('home');}
+function navBrands(){S={...S,page:'brands',brand:null,model:null,cat:null,part:null,adminUnlocked:false};pushState('brands');renderBrands();updateBreadcrumb();showPage('brands');}
+function navModels(){S={...S,page:'models',model:null,cat:null,part:null,adminUnlocked:false};pushState('models');renderModels();updateBreadcrumb();showPage('models');}
+function navCats(){S={...S,page:'categories',cat:null,part:null,adminUnlocked:false};pushState('categories');renderCategories();updateBreadcrumb();showPage('categories');}
+function navParts(){S={...S,page:'parts',part:null,adminUnlocked:false};pushState('parts');renderParts();updateBreadcrumb();showPage('parts');}
+
+function selectBrand(b){S={...S,page:'models',brand:b,model:null,cat:null,part:null};pushState('models');renderModels();updateBreadcrumb();showPage('models');}
+function selectModel(m){S={...S,page:'categories',model:m,cat:null,part:null};pushState('categories');renderCategories();updateBreadcrumb();showPage('categories');}
+function selectCat(c){S={...S,page:'parts',cat:c,part:null};pushState('parts');renderParts();updateBreadcrumb();showPage('parts');}
+function selectPart(p){S={...S,page:'product',part:p};pushState('product');renderProduct();updateBreadcrumb();showPage('product');}
+function waOrder(p){
+  const sk=calcSku(S.brand,S.model,p),pr=calcPrice(S.brand,S.model,p);
+  window.open('https://wa.me/8801707659954?text='+encodeURIComponent(`I want to order:\nPart: ${p}\nBike: ${S.brand} ${S.model}\nSKU: ${sk}\nPrice: ৳${pr.toLocaleString()}`),'_blank');
+}
+
+/* ════════════════════════════════
+   PAGE: HOME
+════════════════════════════════ */
+function renderHome(){
+  document.getElementById('pg-home').innerHTML=`
+  <!-- HERO -->
+  <div class="hero" style="background:linear-gradient(160deg,#111318 0%,#0d0f13 100%)">
+    <div class="hero-grid"></div>
+    <div class="hero-glow"></div>
+    <div class="hero-inner">
+      <div class="tag"><span class="dot"></span> Jessore's #1 Motorcycle Parts Shop</div>
+      <h1>Borhan<em>Auto Parts</em>Centre</h1>
+      <p class="hero-sub"><strong>100% Original Spare Parts</strong> for all major motorcycle brands. Located at <strong>RN Road, Jessore, Bangladesh</strong>. Fast delivery across the country.</p>
+      <div class="hero-btns">
+        <button class="btn-primary" onclick="navBrands()">🏍️ Browse Parts</button>
+        <a class="btn-outline" href="https://wa.me/8801707659954" target="_blank">💬 Order on WhatsApp</a>
+      </div>
+    </div>
+  </div>
+
+  <!-- STATS -->
+  <div class="stats-strip">
+    <div class="stat-item"><div class="stat-num">6+</div><div class="stat-label">Top Brands</div></div>
+    <div class="stat-item"><div class="stat-num">500+</div><div class="stat-label">Parts In Stock</div></div>
+    <div class="stat-item"><div class="stat-num">7-Day</div><div class="stat-label">Easy Returns</div></div>
+    <div class="stat-item"><div class="stat-num">100%</div><div class="stat-label">Original Parts</div></div>
+    <div class="stat-item"><div class="stat-num">BD-Wide</div><div class="stat-label">Fast Delivery</div></div>
+  </div>
+
+  <!-- BRANDS SECTION -->
+  <section>
+    <div class="sec-label">Available Brands</div>
+    <h2>Parts for Every <span>Major Brand</span></h2>
+    <p class="sec-desc">We stock genuine spare parts for all leading motorcycle manufacturers in Bangladesh.</p>
+    <div class="brands-grid">
+      ${Object.entries(BRANDS).map(([name,info])=>`
+        <div class="brand-card" onclick="selectBrand('${name}')"
+          style="border-color:${info.color}28"
+          onmouseover="this.style.borderColor='${info.color}80';this.style.boxShadow='0 13px 38px ${info.color}20';this.querySelector('.bar').style.transform='scaleX(1)'"
+          onmouseout="this.style.borderColor='${info.color}28';this.style.boxShadow='none';this.querySelector('.bar').style.transform='scaleX(0)'">
+          <span class="card-emoji">${info.emoji}</span>
+          <div class="card-title">${name}</div>
+          <div class="card-sub">${info.models.length} Models · ${Object.keys(info.cats).length} Categories</div>
+          <div class="bar" style="background:linear-gradient(90deg,${info.color},${info.color}77)"></div>
+        </div>`).join('')}
+    </div>
+  </section>
+
+  <!-- WHY US -->
+  <section style="background:var(--sur);border-top:1px solid var(--bor);border-bottom:1px solid var(--bor)">
+    <div class="sec-label">Why Choose Us</div>
+    <h2>Your Trusted <span>Parts Partner</span></h2>
+    <p class="sec-desc">We've been serving motorcycle owners in Jessore with honesty and quality for years.</p>
+    <div class="why-grid">
+      <div class="why-card"><div class="why-icon">✅</div><div class="why-title">100% Original Parts</div><div class="why-desc">Every part we sell is genuine, sourced directly from authorized distributors. No fakes, no compromises on quality.</div></div>
+      <div class="why-card"><div class="why-icon">📦</div><div class="why-title">Fast Bangladesh Delivery</div><div class="why-desc">We deliver quickly across Jessore and all of Bangladesh. Order via WhatsApp and get your parts at your doorstep.</div></div>
+      <div class="why-card"><div class="why-icon">🔄</div><div class="why-title">7-Day Easy Return</div><div class="why-desc">Not satisfied? We offer a hassle-free 7-day return policy on all parts purchased from our store.</div></div>
+      <div class="why-card"><div class="why-icon">💬</div><div class="why-title">WhatsApp Support</div><div class="why-desc">Get instant help finding the right part. Message us on WhatsApp and our team responds quickly.</div></div>
+      <div class="why-card"><div class="why-icon">🏍️</div><div class="why-title">All Major Brands</div><div class="why-desc">Whether you ride Bajaj, Honda, Yamaha, Suzuki, TVS or Hero — we have the right spare parts for your bike.</div></div>
+      <div class="why-card"><div class="why-icon">📍</div><div class="why-title">Convenient Location</div><div class="why-desc">Centrally located on RN Road, Jessore. Easy for local customers to visit and pick up parts in person.</div></div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section class="contact-sec">
+    <div class="sec-label">Get In Touch</div>
+    <h2>Visit Us or <span>Order Online</span></h2>
+    <p class="sec-desc">Come to our store in Jessore or message us on WhatsApp — we're always ready to help.</p>
+    <div class="contact-grid">
+      <div class="contact-items">
+        <div class="contact-item"><div class="ci-icon">📍</div><div><div class="ci-lbl">Our Location</div><div class="ci-val">RN Road, Jessore, Bangladesh</div></div></div>
+        <div class="contact-item"><div class="ci-icon">📞</div><div><div class="ci-lbl">Phone / WhatsApp</div><div class="ci-val"><a href="tel:+8801707659954">01707659954</a></div></div></div>
+        <div class="contact-item"><div class="ci-icon">🕐</div><div><div class="ci-lbl">Business Hours</div><div class="ci-val">Saturday – Thursday: 9:00 AM – 8:00 PM</div></div></div>
+        <div class="contact-item"><div class="ci-icon">🚀</div><div><div class="ci-lbl">Delivery</div><div class="ci-val">Available across Jessore &amp; all Bangladesh</div></div></div>
+      </div>
+      <div class="wa-box">
+        <div class="wa-box-icon">💬</div>
+        <div class="wa-box-title">Chat on WhatsApp</div>
+        <div class="wa-box-sub">Tell us what part you need. We'll find it and deliver it fast!</div>
+        <a class="wa-box-btn" href="https://wa.me/8801707659954" target="_blank">Start Chat →</a>
+      </div>
+    </div>
+    <div class="map-wrap">
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d116974.26!2d89.1!3d23.16!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39ff3370e3060a01%3A0xe2c8d6c34d2acf41!2sJessore%2C%20Bangladesh!5e0!3m2!1sen!2sbd!4v1700000000000"
+        allowfullscreen loading="lazy" referrerpolicy="no-referrer-when-downgrade"
+        title="Borhan Auto Parts Centre – RN Road, Jessore, Bangladesh"></iframe>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    <div class="footer-grid">
+      <div>
+        <div class="footer-logo">BORHAN <span>AUTO</span> PARTS</div>
+        <p class="footer-desc">Your trusted source for 100% original motorcycle spare parts in Jessore, Bangladesh. Serving riders across the country with quality and honesty.</p>
+      </div>
+      <div>
+        <div class="footer-col-title">Quick Links</div>
+        <ul class="footer-links">
+          <li><button onclick="goHome()">Home</button></li>
+          <li><button onclick="navBrands()">All Brands</button></li>
+          <li><a href="#why">Why Choose Us</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+      <div>
+        <div class="footer-col-title">Brands</div>
+        <ul class="footer-links">
+          ${Object.keys(BRANDS).map(b=>`<li><button onclick="selectBrand('${b}')">${b} Parts</button></li>`).join('')}
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <div class="footer-copy">© 2025 <strong>Borhan Auto Parts Centre</strong>. All rights reserved. | RN Road, Jessore</div>
+      <div class="footer-copy">WhatsApp: <strong>01707659954</strong></div>
+    </div>
+  </footer>`;
+}
+
+/* ════════════════════════════════
+   PAGE: BRANDS LIST
+════════════════════════════════ */
+function renderBrands(){
+  document.getElementById('pg-brands').innerHTML=`
+  <div class="inner-page">
+    <div class="inner-hero" style="background:linear-gradient(135deg,#111318 0%,#0a0c0f 100%)">
+      <div class="inner-hero-grid"></div>
+      <div class="inner-hero-inner">
+        <div class="tag"><span class="dot"></span> Choose Your Brand</div>
+        <h1>Select Your<br><em>Bike Brand</em></h1>
+        <p class="hero-sub">Choose your motorcycle brand to browse 100% genuine spare parts.</p>
+      </div>
+    </div>
+    <div class="pgrid pgrid-3">
+      ${Object.entries(BRANDS).map(([name,info])=>`
+        <div class="brand-card" onclick="selectBrand('${name}')"
+          style="border-color:${info.color}28"
+          onmouseover="this.style.borderColor='${info.color}80';this.style.boxShadow='0 13px 38px ${info.color}20';this.querySelector('.bar').style.transform='scaleX(1)'"
+          onmouseout="this.style.borderColor='${info.color}28';this.style.boxShadow='none';this.querySelector('.bar').style.transform='scaleX(0)'">
+          <span class="card-emoji">${info.emoji}</span>
+          <div class="card-title">${name}</div>
+          <div class="card-sub">${info.models.length} Models · ${Object.keys(info.cats).length} Categories</div>
+          <div class="bar" style="background:linear-gradient(90deg,${info.color},${info.color}77)"></div>
+        </div>`).join('')}
+    </div>
+  </div>`;
+}
+
+/* ════════════════════════════════
+   PAGE: MODELS
+════════════════════════════════ */
+function renderModels(){
+  const {brand}=S, info=BRANDS[brand];
+  document.getElementById('pg-models').innerHTML=`
+  <div class="inner-page">
+    <div class="inner-hero" style="background:linear-gradient(135deg,#111318 0%,${info.color}18 100%)">
+      <div class="inner-hero-grid"></div>
+      <div class="inner-hero-inner">
+        <div class="tag" style="color:${info.color};background:${info.color}20;border-color:${info.color}50">
+          ${info.emoji} ${brand} Motorcycles
+        </div>
+        <h1>Select Your<br><em style="color:${info.color}">${brand} Model</em></h1>
+        <p class="hero-sub">Choose your exact bike model to find perfectly matched parts.</p>
+      </div>
+    </div>
+    <div class="pgrid pgrid-4">
+      ${info.models.map(m=>`
+        <div class="model-card" onclick="selectModel('${m.replace(/'/g,"\\'")}')">
+          <span class="card-emoji">🏍️</span>
+          <div class="card-title">${m}</div>
+          <div class="card-sub">${brand} · ${Object.keys(info.cats).length} Categories</div>
+          <div class="bar" style="background:linear-gradient(90deg,${info.color},${info.color}66)"></div>
+        </div>`).join('')}
+    </div>
+  </div>`;
+}
+
+/* ════════════════════════════════
+   PAGE: CATEGORIES
+════════════════════════════════ */
+function renderCategories(){
+  const {brand,model}=S, info=BRANDS[brand];
+  document.getElementById('pg-categories').innerHTML=`
+  <div class="inner-page">
+    <div class="inner-hero" style="background:linear-gradient(135deg,#111318 0%,${info.color}18 100%)">
+      <div class="inner-hero-grid"></div>
+      <div class="inner-hero-inner">
+        <div class="tag" style="color:${info.color};background:${info.color}20;border-color:${info.color}50">
+          ${info.emoji} ${brand} — ${model}
+        </div>
+        <h1>Select<br><em style="color:${info.color}">Part Category</em></h1>
+        <p class="hero-sub">Choose which system you need parts for on your ${model}.</p>
+      </div>
+    </div>
+    <div class="pgrid pgrid-4" style="grid-template-columns:repeat(auto-fill,minmax(240px,1fr))">
+      ${Object.entries(info.cats).map(([cat,parts])=>`
+        <div class="cat-card" onclick="selectCat('${cat}')"
+          onmouseover="this.style.borderColor='${info.color}80';this.style.boxShadow='0 0 0 1px ${info.color}28';this.style.transform='translateY(-3px)'"
+          onmouseout="this.style.borderColor='var(--bor)';this.style.boxShadow='none';this.style.transform='translateY(0)'">
+          <div class="cat-icon-box" style="background:${info.color}20">${CAT_ICONS[cat]||'🔩'}</div>
+          <div>
+            <div class="cat-name">${cat}</div>
+            <div class="cat-count">${parts.length} parts available</div>
+          </div>
+        </div>`).join('')}
+    </div>
+  </div>`;
+}
+
+/* ════════════════════════════════
+   PAGE: PARTS LIST
+════════════════════════════════ */
+function renderParts(filter=''){
+  const {brand,model,cat}=S, info=BRANDS[brand];
+  const parts=info.cats[cat];
+  const filtered=filter?parts.filter(p=>p.toLowerCase().includes(filter.toLowerCase())):parts;
+
+  const cards=filtered.length?`
+    <div class="pgrid pgrid-5">
+      ${filtered.map(p=>{
+        const pr=calcPrice(brand,model,p),st=calcStock(brand,model,p),sk=calcSku(brand,model,p);
+        const safe=p.replace(/\\/g,'\\\\').replace(/'/g,"\\'");
+        return `
+        <div class="part-card" onclick="selectPart('${safe}')"
+          onmouseover="this.style.borderColor='${info.color}80';this.style.boxShadow='0 7px 26px ${info.color}18'"
+          onmouseout="this.style.borderColor='var(--bor)';this.style.boxShadow='none'">
+          <div class="pt-top">
+            <div class="pt-name">${p}</div>
+            <div class="pt-price">৳${pr.toLocaleString()}</div>
+          </div>
+          <div class="pt-sku">SKU: ${sk}</div>
+          <div class="pt-bot">
+            <span class="stock-badge"><span class="sdot"></span>${st} in stock</span>
+            <span class="ct-lbl">${cat}</span>
+          </div>
+          <button class="wa-order-btn" onclick="event.stopPropagation();waOrder('${safe}')">💬 Order on WhatsApp</button>
+        </div>`;
+      }).join('')}
+    </div>` : `<div class="pgrid"><div class="no-res"><div class="big">🔍</div><p>No parts found for "${filter}"</p></div></div>`;
+
+  document.getElementById('pg-parts').innerHTML=`
+  <div class="inner-page">
+    <div class="inner-hero" style="background:linear-gradient(135deg,#111318 0%,${info.color}18 100%)">
+      <div class="inner-hero-grid"></div>
+      <div class="inner-hero-inner">
+        <div class="tag" style="color:${info.color};background:${info.color}20;border-color:${info.color}50">
+          ${CAT_ICONS[cat]||'🔩'} ${brand} ${model} — ${cat}
+        </div>
+        <h1>Available<br><em style="color:${info.color}">Spare Parts</em></h1>
+        <p class="hero-sub">${parts.length} original parts for ${model}. Click any part to view details &amp; order.</p>
+      </div>
+    </div>
+    <div class="search-wrap">
+      <input type="text" id="psearch" placeholder="🔍  Search ${cat} parts…" value="${filter}" oninput="renderParts(this.value)"/>
+    </div>
+    ${cards}
+  </div>`;
+}
+
+/* ════════════════════════════════
+   PAGE: PRODUCT DETAIL
+════════════════════════════════ */
+function renderProduct(){
+  const {brand,model,cat,part}=S, info=BRANDS[brand];
+  const pr=calcPrice(brand,model,part),st=calcStock(brand,model,part),sk=calcSku(brand,model,part);
+  const saved=loadPart(brand,model,part);
+  const desc=saved.desc||`Genuine original ${part} for ${brand} ${model}. Sourced directly from authorized distributors. Ensures optimal performance and maximum service life for your motorcycle.`;
+  const partNo=saved.partNo||sk;
+  const weight=saved.weight||'';
+  const warranty=saved.warranty||'6 Months';
+  const origin=saved.origin||'India';
+  const notes=saved.notes||'';
+  const waMsg=`I want to order:\nPart: ${part}\nBike: ${brand} ${model}\nSKU: ${sk}\nPrice: ৳${pr.toLocaleString()}`;
+
+  const adminHtml=S.adminUnlocked?`
+    <div class="edit-section">
+      <div class="edit-head">
+        <div class="edit-title">✏️ Edit Product Details</div>
+        <button class="logout-btn" onclick="adminLogout()">🔒 Lock</button>
+      </div>
+      <label class="fl">Product Description</label>
+      <textarea class="fta" id="ed-desc">${desc}</textarea>
+      <div class="field-row">
+        <div><label class="fl">Part Number / SKU</label><input class="fi" id="ed-partno" value="${partNo}"/></div>
+        <div><label class="fl">Weight (e.g. 250g)</label><input class="fi" id="ed-weight" placeholder="e.g. 250g" value="${weight}"/></div>
+        <div><label class="fl">Warranty</label><input class="fi" id="ed-warranty" value="${warranty}"/></div>
+        <div><label class="fl">Country of Origin</label><input class="fi" id="ed-origin" value="${origin}"/></div>
+      </div>
+      <label class="fl">Fitment Notes / Additional Info</label>
+      <textarea class="fta" style="min-height:68px" id="ed-notes" placeholder="e.g. Fits 2018–2023 models only.">${notes}</textarea>
+      <div style="display:flex;align-items:center;flex-wrap:wrap;gap:10px">
+        <button class="save-btn" onclick="saveProduct()">💾 Save Details</button>
+        <span class="saved-ok" id="saved-ok">✅ Saved!</span>
+      </div>
+    </div>` : `
+    <div class="admin-lock">
+      <div class="lock-icon">🔒</div>
+      <div class="lock-title">Admin Access Required to Edit</div>
+      <br/>
+      <input class="lock-input" type="password" id="admin-pass" placeholder="••••••••" onkeydown="if(event.key==='Enter')checkPass()"/>
+      <br/>
+      <button class="lock-btn" onclick="checkPass()">Unlock</button>
+      <div class="lock-err" id="lock-err">❌ Incorrect password. Try again.</div>
+    </div>`;
+
+  document.getElementById('pg-product').innerHTML=`
+  <div class="inner-page">
+    <div class="inner-hero" style="background:linear-gradient(135deg,#111318 0%,${info.color}18 100%);padding:42px 5% 32px">
+      <div class="inner-hero-grid"></div>
+      <div class="inner-hero-inner">
+        <div class="tag" style="color:${info.color};background:${info.color}20;border-color:${info.color}50">
+          ${info.emoji} ${brand} · ${model} · ${cat}
+        </div>
+        <h1 style="font-size:clamp(1.5rem,3.5vw,2.6rem)">${part}</h1>
+      </div>
+    </div>
+    <div class="det-wrap">
+      <div class="det-grid">
+        <!-- LEFT: image + meta -->
+        <div>
+          <div class="img-box" style="background:linear-gradient(135deg,var(--card),${info.color}12)">
+            <div class="img-bg-grid"></div>
+            <span class="img-emoji">${CAT_ICONS[cat]||'🔩'}</span>
+            <span class="img-lbl">${brand} · ${model}</span>
+            <span class="img-lbl" style="font-size:.7rem;opacity:.55">${part}</span>
+          </div>
+          <div class="meta-grid">
+            <div class="meta-item"><div class="meta-lbl">SKU / Part No.</div><div class="meta-val" style="font-family:monospace;font-size:.8rem">${partNo}</div></div>
+            <div class="meta-item"><div class="meta-lbl">Brand</div><div class="meta-val">${brand}</div></div>
+            <div class="meta-item"><div class="meta-lbl">Model</div><div class="meta-val">${model}</div></div>
+            <div class="meta-item"><div class="meta-lbl">Category</div><div class="meta-val">${cat}</div></div>
+            <div class="meta-item"><div class="meta-lbl">Warranty</div><div class="meta-val">${warranty}</div></div>
+            <div class="meta-item"><div class="meta-lbl">Origin</div><div class="meta-val">${origin}</div></div>
+            ${weight?`<div class="meta-item" style="grid-column:1/-1"><div class="meta-lbl">Weight</div><div class="meta-val">${weight}</div></div>`:''}
+          </div>
+        </div>
+        <!-- RIGHT: info + admin -->
+        <div>
+          <div class="det-brand-tag">${info.emoji} ${brand}</div>
+          <div class="det-name">${part}</div>
+          <div class="det-model">For ${brand} ${model} · ${cat}</div>
+          <div class="price-row">
+            <div class="det-price">৳${pr.toLocaleString()}</div>
+            <span class="stock-badge"><span class="sdot"></span>${st} in stock</span>
+          </div>
+          <p class="det-desc">${desc}</p>
+          ${notes?`<div class="notes-box">📌 ${notes}</div>`:''}
+          <a class="wa-big-btn" href="https://wa.me/8801707659954?text=${encodeURIComponent(waMsg)}" target="_blank">
+            💬 Order on WhatsApp
+          </a>
+          ${adminHtml}
+        </div>
+      </div>
+    </div>
+  </div>`;
+}
+
+/* ════════════════════════════════
+   ADMIN
+════════════════════════════════ */
+function checkPass(){
+  const inp=document.getElementById('admin-pass');
+  if(!inp)return;
+  if(inp.value===ADMIN_PASS){S.adminUnlocked=true;renderProduct();}
+  else{
+    const e=document.getElementById('lock-err');
+    if(e)e.style.display='block';
+    inp.value='';inp.style.borderColor='#e74c3c';
+    setTimeout(()=>{if(inp)inp.style.borderColor='var(--bor)';},1200);
+  }
+}
+function adminLogout(){S.adminUnlocked=false;renderProduct();}
+function saveProduct(){
+  const {brand,model,part}=S;
+  savePart(brand,model,part,{
+    desc:document.getElementById('ed-desc')?.value||'',
+    partNo:document.getElementById('ed-partno')?.value||'',
+    weight:document.getElementById('ed-weight')?.value||'',
+    warranty:document.getElementById('ed-warranty')?.value||'',
+    origin:document.getElementById('ed-origin')?.value||'',
+    notes:document.getElementById('ed-notes')?.value||'',
+  });
+  const ok=document.getElementById('saved-ok');
+  if(ok){ok.style.display='inline-flex';setTimeout(()=>{ok.style.display='none';},2600);}
+  renderProduct();
+}
+
+/* ════════════════════════════════
+   INIT — push initial state so
+   back button works from page 1
+════════════════════════════════ */
+history.replaceState({page:'home',brand:null,model:null,cat:null,part:null},'','');
+renderHome();
+updateBreadcrumb();
+showPage('home');
+</script>
+</body>
+</html>
