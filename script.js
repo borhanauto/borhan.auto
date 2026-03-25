@@ -13,7 +13,7 @@ const ADMIN_PASS = 'borhan2024';
 const BRANDS = {
   Bajaj: {
   color: '#ff6b2b',
-  emoji: '<img src="assets/bajaj.png" alt="Bajaj" style="width:60px;height:60px;object-fit:contain;">',
+  emoji: '<img src="assets/bajaj.png" alt="Bajaj" style="width:60px;height:60px;object-fit:contain;">'
     models: ['Pulsar NS160','Pulsar NS200','Pulsar 150','Pulsar 220F','Avenger 150','Avenger 220','CT100','Platina 100','Discover 125','Dominar 400'],
     cats: {
       Engine:       ['Piston Kit','Piston Ring Set','Cylinder Head','Valve Set','Camshaft','Crankshaft','Engine Gasket Kit','Oil Filter','Engine Oil Seal','Timing Chain'],
