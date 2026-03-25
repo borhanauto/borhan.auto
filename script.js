@@ -472,6 +472,7 @@ function renderBrands() {
 function renderModels() {
   const { brand } = S;
   const info = BRANDS[brand];
+
   document.getElementById('pg-models').innerHTML = `
   <div class="inner-page">
     <div class="inner-hero" style="background:linear-gradient(135deg,#111318 0%,${info.color}18 100%)">
@@ -485,13 +486,20 @@ function renderModels() {
       </div>
     </div>
     <div class="pgrid pgrid-4">
-      ${info.models.map(m => `
+      ${info.models.map(m => {
+        // Image path directly in assets folder
+        const imgName = m.toLowerCase().replace(/[\s']/g, "_") + ".png";
+        const imgPath = `assets/${imgName}`;
+
+        return `
         <div class="model-card" onclick="selectModel('${m.replace(/'/g, "\\'")}')">
           <span class="card-emoji">🏍️</span>
+          <img class="model-img" src="${imgPath}" alt="${m}" />
           <div class="card-title">${m}</div>
           <div class="card-sub">${brand} · ${Object.keys(info.cats).length} Categories</div>
           <div class="bar" style="background:linear-gradient(90deg,${info.color},${info.color}66)"></div>
-        </div>`).join('')}
+        </div>`;
+      }).join('')}
     </div>
   </div>`;
 }
