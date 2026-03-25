@@ -13,7 +13,7 @@ const ADMIN_PASS = 'borhan2024';
 const BRANDS = {
  Bajaj: {
   color: '#ff6b2b',
-  emoji: '<img src="assets/bajaj.png" alt="Bajaj" style="width:60px;height:60px;object-fit:contain;">',
+  img: '/borhan.auto/assets/bajaj.png',
     models: ['Pulsar NS160','Pulsar NS200','Pulsar 150','Pulsar 220F','Avenger 150','Avenger 220','CT100','Platina 100','Discover 125','Dominar 400'],
     cats: {
       Engine:       ['Piston Kit','Piston Ring Set','Cylinder Head','Valve Set','Camshaft','Crankshaft','Engine Gasket Kit','Oil Filter','Engine Oil Seal','Timing Chain'],
@@ -28,7 +28,7 @@ const BRANDS = {
   },
  Yamaha: {
   color: '#1a5eff',
-  emoji: '<img src="/borhan.auto/assets/yamaha.png" alt="Yamaha" style="width:60px;height:60px;object-fit:contain;">',
+  img: '/borhan.auto/assets/yamaha.png',
     models: ['FZS V3','FZS V2','FZ-S Fi','R15 V4','R15 V3','MT-15','Fazer FI','Saluto','YBR 125','Crux R'],
     cats: {
       Engine:       ['Piston Kit','Cylinder Head','Valve Set','Camshaft','Crankshaft Bearing','Engine Gasket Set','Oil Filter','Timing Belt','Oil Pump','Rocker Arm'],
@@ -43,8 +43,8 @@ const BRANDS = {
   },
   Honda: {
   color: '#cc0000',
-  emoji: '<img src="/borhan.auto/assets/honda.png" alt="Honda" style="width:60px;height:60px;object-fit:contain;">',
-    cats: {
+  img: '/borhan.auto/assets/honda.png',
+    models: ['CB Hornet 160R','CB Shine','CB Shine SP','Livo','Dream Neo','Unicorn 160','X-Blade','Navi','CB300R','CB500F'],
       Engine:       ['Piston Kit','Cylinder Liner','Head Gasket','Valve Stem Seal','Crankshaft','Camshaft Chain','Oil Filter','Engine Mount Bolt Set','Cylinder Head Bolt','Rocker Arm Assembly'],
       Suspension:   ['Telescopic Fork','Monoshock Absorber','Fork Oil Seal','Pro-Link Bearing','Steering Cone Set','Front Axle'],
       Brakes:       ['Combi Brake System','Disc Pad','Drum Shoe','Brake Hose','Brake Switch','Caliper Piston'],
@@ -57,7 +57,7 @@ const BRANDS = {
   },
   Suzuki: {
   color: '#003399',
-  emoji: '<img src="/borhan.auto/assets/suzuki.png" alt="Suzuki" style="width:60px;height:60px;object-fit:contain;">',
+  img: '/borhan.auto/assets/suzuki.png',
     models: ['Gixxer SF','Gixxer 155','Hayate EP','Access 125','Burgman Street','GSX-S150','Bandit 150','Lets 110','Swish 125','Address 110'],
     cats: {
       Engine:       ['Piston Assembly','Cylinder Kit','Head Gasket Set','Valve Assembly','Crankshaft Assy','Oil Filter Element','Engine Bolt Kit','Cam Chain Tensioner','Oil Pump Rotor','Cylinder Head Cover'],
@@ -72,7 +72,7 @@ const BRANDS = {
   },
   TVS: {
   color: '#f5a623',
-  emoji: '<img src="/borhan.auto/assets/tvs.png" alt="TVS" style="width:60px;height:60px;object-fit:contain;">',
+  img: '/borhan.auto/assets/tvs.png',
     models: ['Apache RTR 160 4V','Apache RTR 200 4V','Apache RR 310','Raider 125','Ntorq 125','Jupiter 110','XL100','Star City Plus','Sport','Metro Plus'],
     cats: {
       Engine:       ['Piston Kit','Cylinder Head Assy','Valve Seat','Timing Chain Kit','Crankshaft Bearing','Head Gasket','Oil Filter','Engine Oil Seal Set','Carburetor Jet Kit','Engine Mounting Rubber'],
@@ -87,7 +87,7 @@ const BRANDS = {
   },
   Hero: {
   color: '#e11d48',
-  emoji: '<img src="/borhan.auto/assets/hero.png" alt="Hero" style="width:60px;height:60px;object-fit:contain;">',
+  img: '/borhan.auto/assets/hero.png',
     models: ['Splendor Plus','Splendor Pro','HF Deluxe','Passion Pro','Glamour','Xpulse 200','Xtreme 160R','Destini 125','Maestro Edge','Pleasure Plus'],
     cats: {
       Engine:       ['Piston Kit','Cylinder Kit','Cylinder Head','Valve Set','Crankshaft','Engine Gasket Set','Oil Filter','Timing Chain','Rocker Arm','Engine Oil Seal'],
@@ -112,6 +112,14 @@ const CAT_ICONS = {
   'Body Parts':  '🛡️',
   Cooling:       '🌡️',
 };
+
+/* ════════════════════════════════
+   BRAND ICON HELPER
+════════════════════════════════ */
+function brandIcon(info, name, size) {
+  size = size || 60;
+  return '<img src="' + info.img + '" alt="' + name + '" style="width:' + size + 'px;height:' + size + 'px;object-fit:contain;">';
+}
 
 /* ════════════════════════════════
    APPLICATION STATE
@@ -353,7 +361,7 @@ function renderHome() {
           style="border-color:${info.color}28"
           onmouseover="this.style.borderColor='${info.color}80';this.style.boxShadow='0 13px 38px ${info.color}20';this.querySelector('.bar').style.transform='scaleX(1)'"
           onmouseout="this.style.borderColor='${info.color}28';this.style.boxShadow='none';this.querySelector('.bar').style.transform='scaleX(0)'">
-          <span class="card-emoji">${info.emoji}</span>
+          <span class="card-emoji">${brandIcon(info, name)}</span>
           <div class="card-title">${name}</div>
           <div class="card-sub">${info.models.length} Models · ${Object.keys(info.cats).length} Categories</div>
           <div class="bar" style="background:linear-gradient(90deg,${info.color},${info.color}77)"></div>
@@ -456,7 +464,7 @@ function renderBrands() {
           style="border-color:${info.color}28"
           onmouseover="this.style.borderColor='${info.color}80';this.style.boxShadow='0 13px 38px ${info.color}20';this.querySelector('.bar').style.transform='scaleX(1)'"
           onmouseout="this.style.borderColor='${info.color}28';this.style.boxShadow='none';this.querySelector('.bar').style.transform='scaleX(0)'">
-          <span class="card-emoji">${info.emoji}</span>
+          <span class="card-emoji">${brandIcon(info, name)}</span>
           <div class="card-title">${name}</div>
           <div class="card-sub">${info.models.length} Models · ${Object.keys(info.cats).length} Categories</div>
           <div class="bar" style="background:linear-gradient(90deg,${info.color},${info.color}77)"></div>
@@ -477,7 +485,7 @@ function renderModels() {
       <div class="inner-hero-grid"></div>
       <div class="inner-hero-inner">
         <div class="tag" style="color:${info.color};background:${info.color}20;border-color:${info.color}50">
-          ${info.emoji} ${brand} Motorcycles
+          ${brandIcon(info, brand)} ${brand} Motorcycles
         </div>
         <h1>Select Your<br><em style="color:${info.color}">${brand} Model</em></h1>
         <p class="hero-sub">Choose your exact bike model to find perfectly matched parts.</p>
@@ -507,7 +515,7 @@ function renderCategories() {
       <div class="inner-hero-grid"></div>
       <div class="inner-hero-inner">
         <div class="tag" style="color:${info.color};background:${info.color}20;border-color:${info.color}50">
-          ${info.emoji} ${brand} — ${model}
+          ${brandIcon(info, brand)} ${brand} — ${model}
         </div>
         <h1>Select<br><em style="color:${info.color}">Part Category</em></h1>
         <p class="hero-sub">Choose which system you need parts for on your ${model}.</p>
@@ -641,7 +649,7 @@ function renderProduct() {
       <div class="inner-hero-grid"></div>
       <div class="inner-hero-inner">
         <div class="tag" style="color:${info.color};background:${info.color}20;border-color:${info.color}50">
-          ${info.emoji} ${brand} · ${model} · ${cat}
+          ${brandIcon(info, brand)} ${brand} · ${model} · ${cat}
         </div>
         <h1 style="font-size:clamp(1.5rem,3.5vw,2.6rem)">${part}</h1>
       </div>
@@ -668,7 +676,7 @@ function renderProduct() {
         </div>
         <!-- RIGHT: info + admin -->
         <div>
-          <div class="det-brand-tag">${info.emoji} ${brand}</div>
+          <div class="det-brand-tag">${brandIcon(info, brand, 28)} ${brand}</div>
           <div class="det-name">${part}</div>
           <div class="det-model">For ${brand} ${model} · ${cat}</div>
           <div class="price-row">
