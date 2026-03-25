@@ -1400,11 +1400,10 @@ footer {
   .nav-wa span   { display: none; }
 }
 .card-img {
-  width: 55px;
-  height: 55px;
-  object-fit: contain;
+  max-width: 100%;    /* won’t exceed container width */
+  height: auto;       /* scales height proportionally */
   display: block;
-  margin: 0 auto 10px;
+  margin: 0 auto;
 }
 .model-card img.model-img {
   width: 100%;        /* image fills the card width */
