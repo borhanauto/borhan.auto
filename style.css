@@ -394,32 +394,34 @@ h2 span {
   gap: 16px;
 }
 
+/* Brand card container */
 .brand-card {
   background: var(--card);
   border: 1.5px solid var(--bor);
   border-radius: var(--rad);
-  padding: 28px 18px;
+  padding: 20px 18px;        /* slightly reduced padding */
   cursor: pointer;
   text-align: center;
   transition: all .25s;
   position: relative;
   overflow: hidden;
 
-  /* NEW for proper stacking */
+  /* Flex layout for image + text */
   display: flex;
-  flex-direction: column;  /* stack image on top, text below */
-  align-items: center;     /* center horizontally */
-  gap: 12px;               /* space between image and text */
+  flex-direction: column;     /* stack image on top */
+  align-items: center;        /* center horizontally */
+  justify-content: flex-start;/* top-align content */
+  gap: 8px;                   /* spacing between image and text */
 }
 
+/* Brand image */
 .brand-card img.card-img {
-  width: 100%;        /* fill card width */
-  max-width: 140px;   /* optional: limit max size */
-  height: auto;       /* maintain aspect ratio */
-  object-fit: contain;/* scale without distortion */
+  width: auto;               /* auto width for proportional scaling */
+  max-width: 120px;          /* prevents image from being too wide */
+  height: 100px;             /* consistent height for all brand images */
+  object-fit: contain;       /* maintain aspect ratio, no stretching */
   display: block;
 }
-
 .brand-card:hover {
   transform: translateY(-5px);
 }
