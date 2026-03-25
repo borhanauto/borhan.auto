@@ -1399,3 +1399,10 @@ footer {
   .btn-outline   { justify-content: center; }
   .nav-wa span   { display: none; }
 }
+.card-img {
+  width: 55px;
+  height: 55px;
+  object-fit: contain;
+  display: block;
+  margin: 0 auto 10px;
+}
