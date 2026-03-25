@@ -1406,3 +1406,10 @@ footer {
   display: block;
   margin: 0 auto 10px;
 }
+.model-card img.model-img {
+  width: 100%;        /* image fills the card width */
+  height: 100px;      /* set a fixed height for consistency */
+  object-fit: contain; /* keeps aspect ratio without stretching */
+  margin-bottom: 6px;
+  border-radius: 6px;
+}
