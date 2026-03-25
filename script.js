@@ -493,7 +493,6 @@ function renderModels() {
 
         return `
         <div class="model-card" onclick="selectModel('${m.replace(/'/g, "\\'")}')">
-          <span class="card-emoji">🏍️</span>
           <img class="model-img" src="${imgPath}" alt="${m}" />
           <div class="card-title">${m}</div>
           <div class="card-sub">${brand} · ${Object.keys(info.cats).length} Categories</div>
