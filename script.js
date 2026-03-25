@@ -745,3 +745,7 @@ history.replaceState({ page: 'home', brand: null, model: null, cat: null, part: 
 renderHome();
 updateBreadcrumb();
 showPage('home');
+document.addEventListener('DOMContentLoaded', () => {
+  renderHome();
+  updateBreadcrumb();
+});
