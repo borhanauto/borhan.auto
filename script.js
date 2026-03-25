@@ -354,7 +354,7 @@ function renderHome() {
           style="border-color:${info.color}28"
           onmouseover="this.style.borderColor='${info.color}80';this.style.boxShadow='0 13px 38px ${info.color}20';this.querySelector('.bar').style.transform='scaleX(1)'"
           onmouseout="this.style.borderColor='${info.color}28';this.style.boxShadow='none';this.querySelector('.bar').style.transform='scaleX(0)'">
-          <span class="card-emoji">${info.emoji}</span>
+          <img class="card-img" src="${info.img}" alt="${name}">
           <div class="card-title">${name}</div>
           <div class="card-sub">${info.models.length} Models · ${Object.keys(info.cats).length} Categories</div>
           <div class="bar" style="background:linear-gradient(90deg,${info.color},${info.color}77)"></div>
@@ -457,7 +457,7 @@ function renderBrands() {
           style="border-color:${info.color}28"
           onmouseover="this.style.borderColor='${info.color}80';this.style.boxShadow='0 13px 38px ${info.color}20';this.querySelector('.bar').style.transform='scaleX(1)'"
           onmouseout="this.style.borderColor='${info.color}28';this.style.boxShadow='none';this.querySelector('.bar').style.transform='scaleX(0)'">
-          <span class="card-emoji">${info.emoji}</span>
+          <img class="card-img" src="${info.img}" alt="${name}">
           <div class="card-title">${name}</div>
           <div class="card-sub">${info.models.length} Models · ${Object.keys(info.cats).length} Categories</div>
           <div class="bar" style="background:linear-gradient(90deg,${info.color},${info.color}77)"></div>
