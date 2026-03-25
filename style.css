@@ -404,6 +404,20 @@ h2 span {
   transition: all .25s;
   position: relative;
   overflow: hidden;
+
+  /* NEW for proper stacking */
+  display: flex;
+  flex-direction: column;  /* stack image on top, text below */
+  align-items: center;     /* center horizontally */
+  gap: 12px;               /* space between image and text */
+}
+
+.brand-card img.card-img {
+  width: 100%;        /* fill card width */
+  max-width: 140px;   /* optional: limit max size */
+  height: auto;       /* maintain aspect ratio */
+  object-fit: contain;/* scale without distortion */
+  display: block;
 }
 
 .brand-card:hover {
