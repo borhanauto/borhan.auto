@@ -42,9 +42,8 @@ const BRANDS = {
     },
   },
   Honda: {
-    color: '#cc0000',
-    emoji: '🔴',
-    models: ['CB Hornet 160R','CB Shine','CB Shine SP','Livo','Dream Neo','Unicorn 160','X-Blade','Navi','CB300R','CB500F'],
+  color: '#cc0000',
+  emoji: '<img src="/borhan.auto/assets/honda.png" alt="Honda" style="width:60px;height:60px;object-fit:contain;">',
     cats: {
       Engine:       ['Piston Kit','Cylinder Liner','Head Gasket','Valve Stem Seal','Crankshaft','Camshaft Chain','Oil Filter','Engine Mount Bolt Set','Cylinder Head Bolt','Rocker Arm Assembly'],
       Suspension:   ['Telescopic Fork','Monoshock Absorber','Fork Oil Seal','Pro-Link Bearing','Steering Cone Set','Front Axle'],
@@ -57,8 +56,8 @@ const BRANDS = {
     },
   },
   Suzuki: {
-    color: '#003399',
-    emoji: '🔵',
+  color: '#003399',
+  emoji: '<img src="/borhan.auto/assets/suzuki.png" alt="Suzuki" style="width:60px;height:60px;object-fit:contain;">',
     models: ['Gixxer SF','Gixxer 155','Hayate EP','Access 125','Burgman Street','GSX-S150','Bandit 150','Lets 110','Swish 125','Address 110'],
     cats: {
       Engine:       ['Piston Assembly','Cylinder Kit','Head Gasket Set','Valve Assembly','Crankshaft Assy','Oil Filter Element','Engine Bolt Kit','Cam Chain Tensioner','Oil Pump Rotor','Cylinder Head Cover'],
@@ -72,8 +71,8 @@ const BRANDS = {
     },
   },
   TVS: {
-    color: '#f5a623',
-    emoji: '🟡',
+  color: '#f5a623',
+  emoji: '<img src="/borhan.auto/assets/tvs.png" alt="TVS" style="width:60px;height:60px;object-fit:contain;">',
     models: ['Apache RTR 160 4V','Apache RTR 200 4V','Apache RR 310','Raider 125','Ntorq 125','Jupiter 110','XL100','Star City Plus','Sport','Metro Plus'],
     cats: {
       Engine:       ['Piston Kit','Cylinder Head Assy','Valve Seat','Timing Chain Kit','Crankshaft Bearing','Head Gasket','Oil Filter','Engine Oil Seal Set','Carburetor Jet Kit','Engine Mounting Rubber'],
@@ -87,8 +86,8 @@ const BRANDS = {
     },
   },
   Hero: {
-    color: '#e11d48',
-    emoji: '🟢',
+  color: '#e11d48',
+  emoji: '<img src="/borhan.auto/assets/hero.png" alt="Hero" style="width:60px;height:60px;object-fit:contain;">',
     models: ['Splendor Plus','Splendor Pro','HF Deluxe','Passion Pro','Glamour','Xpulse 200','Xtreme 160R','Destini 125','Maestro Edge','Pleasure Plus'],
     cats: {
       Engine:       ['Piston Kit','Cylinder Kit','Cylinder Head','Valve Set','Crankshaft','Engine Gasket Set','Oil Filter','Timing Chain','Rocker Arm','Engine Oil Seal'],
