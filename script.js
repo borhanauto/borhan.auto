@@ -13,7 +13,7 @@ const ADMIN_PASS = 'borhan2024';
 const BRANDS = {
   Bajaj: {
     color: '#ff6b2b',
-    emoji: '🟠',
+    img: 'assets/bajaj.png',
     models: ['Pulsar NS160','Pulsar NS200','Pulsar 150','Pulsar 220F','Avenger 150','Avenger 220','CT100','Platina 100','Discover 125','Dominar 400'],
     cats: {
       Engine:       ['Piston Kit','Piston Ring Set','Cylinder Head','Valve Set','Camshaft','Crankshaft','Engine Gasket Kit','Oil Filter','Engine Oil Seal','Timing Chain'],
@@ -28,7 +28,7 @@ const BRANDS = {
   },
   Yamaha: {
     color: '#1a5eff',
-    emoji: '🔵',
+    img: 'assets/yamaha.png',
     models: ['FZS V3','FZS V2','FZ-S Fi','R15 V4','R15 V3','MT-15','Fazer FI','Saluto','YBR 125','Crux R'],
     cats: {
       Engine:       ['Piston Kit','Cylinder Head','Valve Set','Camshaft','Crankshaft Bearing','Engine Gasket Set','Oil Filter','Timing Belt','Oil Pump','Rocker Arm'],
@@ -43,7 +43,7 @@ const BRANDS = {
   },
   Honda: {
     color: '#cc0000',
-    emoji: '🔴',
+    img: 'assets/honda.png',
     models: ['CB Hornet 160R','CB Shine','CB Shine SP','Livo','Dream Neo','Unicorn 160','X-Blade','Navi','CB300R','CB500F'],
     cats: {
       Engine:       ['Piston Kit','Cylinder Liner','Head Gasket','Valve Stem Seal','Crankshaft','Camshaft Chain','Oil Filter','Engine Mount Bolt Set','Cylinder Head Bolt','Rocker Arm Assembly'],
@@ -58,7 +58,7 @@ const BRANDS = {
   },
   Suzuki: {
     color: '#003399',
-    emoji: '🔵',
+    img: 'assets/suzuki.png',
     models: ['Gixxer SF','Gixxer 155','Hayate EP','Access 125','Burgman Street','GSX-S150','Bandit 150','Lets 110','Swish 125','Address 110'],
     cats: {
       Engine:       ['Piston Assembly','Cylinder Kit','Head Gasket Set','Valve Assembly','Crankshaft Assy','Oil Filter Element','Engine Bolt Kit','Cam Chain Tensioner','Oil Pump Rotor','Cylinder Head Cover'],
@@ -73,7 +73,7 @@ const BRANDS = {
   },
   TVS: {
     color: '#f5a623',
-    emoji: '🟡',
+    img: 'assets/tvs.png',
     models: ['Apache RTR 160 4V','Apache RTR 200 4V','Apache RR 310','Raider 125','Ntorq 125','Jupiter 110','XL100','Star City Plus','Sport','Metro Plus'],
     cats: {
       Engine:       ['Piston Kit','Cylinder Head Assy','Valve Seat','Timing Chain Kit','Crankshaft Bearing','Head Gasket','Oil Filter','Engine Oil Seal Set','Carburetor Jet Kit','Engine Mounting Rubber'],
@@ -88,7 +88,7 @@ const BRANDS = {
   },
   Hero: {
     color: '#e11d48',
-    emoji: '🟢',
+   img: 'assets/hero.png',
     models: ['Splendor Plus','Splendor Pro','HF Deluxe','Passion Pro','Glamour','Xpulse 200','Xtreme 160R','Destini 125','Maestro Edge','Pleasure Plus'],
     cats: {
       Engine:       ['Piston Kit','Cylinder Kit','Cylinder Head','Valve Set','Crankshaft','Engine Gasket Set','Oil Filter','Timing Chain','Rocker Arm','Engine Oil Seal'],
