@@ -26,9 +26,9 @@ const BRANDS = {
       Cooling:      ['Radiator','Water Pump','Thermostat','Coolant Reservoir','Radiator Cap'],
     },
   },
-  Yamaha: {
-    color: '#1a5eff',
-    emoji: '🔵',
+ Yamaha: {
+  color: '#1a5eff',
+  emoji: '<img src="/borhan.auto/assets/yamaha.png" alt="Yamaha" style="width:60px;height:60px;object-fit:contain;">',
     models: ['FZS V3','FZS V2','FZ-S Fi','R15 V4','R15 V3','MT-15','Fazer FI','Saluto','YBR 125','Crux R'],
     cats: {
       Engine:       ['Piston Kit','Cylinder Head','Valve Set','Camshaft','Crankshaft Bearing','Engine Gasket Set','Oil Filter','Timing Belt','Oil Pump','Rocker Arm'],
