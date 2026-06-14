@@ -311,7 +311,7 @@ function waOrder(p) {
   const sk = calcSku(S.brand, S.model, p);
   const pr = calcPrice(S.brand, S.model, p);
   const msg = `I want to order:\nPart: ${p}\nBike: ${S.brand} ${S.model}\nSKU: ${sk}\nPrice: ৳${pr.toLocaleString()}`;
-  window.open('https://wa.me/8801707659954?text=' + encodeURIComponent(msg), '_blank');
+  window.open('https://wa.me/8801983498274?text=' + encodeURIComponent(msg), '_blank');
 }
 
 /* ════════════════════════════════
@@ -329,7 +329,7 @@ function renderHome() {
       <p class="hero-sub"><strong>100% Original Spare Parts</strong> for all major motorcycle brands. Located at <strong>RN Road, Jessore, Bangladesh</strong>. Fast delivery across the country.</p>
       <div class="hero-btns">
         <button class="btn-primary" onclick="navBrands()">🏍️ Browse Parts</button>
-        <a class="btn-outline" href="https://wa.me/8801707659954" target="_blank">💬 Order on WhatsApp</a>
+        <a class="btn-outline" href="https://wa.me/8801983498274" target="_blank">💬 Order on WhatsApp</a>
       </div>
     </div>
   </div>
@@ -385,7 +385,7 @@ function renderHome() {
     <div class="contact-grid">
       <div class="contact-items">
         <div class="contact-item"><div class="ci-icon">📍</div><div><div class="ci-lbl">Our Location</div><div class="ci-val">RN Road, Jessore, Bangladesh</div></div></div>
-        <div class="contact-item"><div class="ci-icon">📞</div><div><div class="ci-lbl">Phone / WhatsApp</div><div class="ci-val"><a href="tel:+8801707659954">01707659954</a></div></div></div>
+        <div class="contact-item"><div class="ci-icon">📞</div><div><div class="ci-lbl">Phone / WhatsApp</div><div class="ci-val"><a href="tel:+8801983498274">01983498274</a></div></div></div>
         <div class="contact-item"><div class="ci-icon">🕐</div><div><div class="ci-lbl">Business Hours</div><div class="ci-val">Saturday – Thursday: 9:00 AM – 8:00 PM</div></div></div>
         <div class="contact-item"><div class="ci-icon">🚀</div><div><div class="ci-lbl">Delivery</div><div class="ci-val">Available across Jessore &amp; all Bangladesh</div></div></div>
       </div>
@@ -393,7 +393,7 @@ function renderHome() {
         <div class="wa-box-icon">💬</div>
         <div class="wa-box-title">Chat on WhatsApp</div>
         <div class="wa-box-sub">Tell us what part you need. We'll find it and deliver it fast!</div>
-        <a class="wa-box-btn" href="https://wa.me/8801707659954" target="_blank">Start Chat →</a>
+        <a class="wa-box-btn" href="https://wa.me/8801983498274" target="_blank">Start Chat →</a>
       </div>
     </div>
     <div class="map-wrap">
@@ -432,7 +432,7 @@ function renderHome() {
     </div>
     <div class="footer-bottom">
       <div class="footer-copy">© 2025 <strong>Borhan Auto Parts Centre</strong>. All rights reserved. | RN Road, Jessore</div>
-      <div class="footer-copy">WhatsApp: <strong>01707659954</strong></div>
+      <div class="footer-copy">WhatsApp: <strong>01983498274</strong></div>
     </div>
   </footer>`;
 }
