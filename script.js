@@ -29,7 +29,7 @@ const BRANDS = {
   Yamaha: {
     color: '#1a5eff',
     img: 'assets/yamaha.png',
-    models: ['FZS V3','FZS V2','FZ-S Fi','R15 V4','R15 V3','MT-15','Fazer FI','Saluto','YBR 125','Crux R'],
+    models: ['FZS V3','FZS V2','FZS','R15 V4','R15 V3','MT-15','Fazer FI','Saluto','YBR 125','Crux R'],
     cats: {
       Engine:       ['Piston Kit','Cylinder Head','Valve Set','Camshaft','Crankshaft Bearing','Engine Gasket Set','Oil Filter','Timing Belt','Oil Pump','Rocker Arm'],
       Suspension:   ['Front Fork Set','Rear Shock Absorber','Fork Seal Kit','Steering Stem Bearing','Front Fork Oil','Rear Suspension Link'],
