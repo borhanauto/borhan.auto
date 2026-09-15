@@ -662,7 +662,6 @@ function renderProduct() {
         <div>
           <div class="img-box" style="background:linear-gradient(135deg,var(--card),${info.color}12)">
             <div class="img-bg-grid"></div>
-            <span class="img-emoji">${CAT_ICONS[cat] || '🔩'}</span>
             <span class="img-lbl">${brand} · ${model}</span>
             <span class="img-lbl" style="font-size:.7rem;opacity:.55">${part}</span>
           </div>
