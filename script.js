@@ -164,9 +164,11 @@ function h(s) {
 }
 
 function calcPrice(b, m, p) {
-  return 150 + (h(b + m + p) % 4351);
+  const saved = loadPart(b, m, p);
+  return Number(saved.price) > 0
+    ? Number(saved.price)
+    : 150 + (h(b + m + p) % 4351);
 }
-
 function calcStock(b, m, p) {
   return [3, 5, 8, 12, 15, 20, 25][h(b + m + p + b) % 7];
 }
@@ -620,6 +622,8 @@ function renderProduct() {
           <div class="edit-title">✏️ Edit Product Details</div>
           <button class="logout-btn" onclick="adminLogout()">🔒 Lock</button>
         </div>
+        <label class="fl">Product Price (৳)</label>
+<input class="fi" id="ed-price" type="number" min="0" placeholder="Enter product price" value="${pr}"/>
         <label class="fl">Product Description</label>
         <textarea class="fta" id="ed-desc">${desc}</textarea>
         <div class="field-row">
@@ -723,6 +727,7 @@ function adminLogout() {
 function saveProduct() {
   const { brand, model, part } = S;
   savePart(brand, model, part, {
+    price:    Number(document.getElementById('ed-price')?.value) || 0,
     desc:     document.getElementById('ed-desc')?.value    || '',
     partNo:   document.getElementById('ed-partno')?.value  || '',
     weight:   document.getElementById('ed-weight')?.value  || '',
