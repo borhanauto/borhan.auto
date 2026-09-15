@@ -103,15 +103,15 @@ const BRANDS = {
   },
 };
 
-const CAT_ICONS = {
-  Engine:        '🔧',
-  Suspension:    '🛞',
-  Brakes:        '🛑',
-  Electrical:    '⚡',
-  'Fuel System': '⛽',
-  Transmission:  '⚙️',
-  'Body Parts':  '🛡️',
-  Cooling:       '🌡️',
+const CAT_IMAGES = {
+  Engine:        'assets/engine.jpg',
+  Suspension:    'assets/suspension.jpg',
+  Brakes:        'assets/brakes.jpg',
+  Electrical:    'assets/electrical.jpg',
+  'Fuel System': 'assets/fuel-system.jpg',
+  Transmission:  'assets/transmission.jpg',
+  'Body Parts':  'assets/body-parts.jpg',
+  Cooling:       'assets/cooling.jpg',
 };
 
 /* ════════════════════════════════
