@@ -526,7 +526,9 @@ function renderCategories() {
         <div class="cat-card" onclick="selectCat('${cat}')"
           onmouseover="this.style.borderColor='${info.color}80';this.style.boxShadow='0 0 0 1px ${info.color}28';this.style.transform='translateY(-3px)'"
           onmouseout="this.style.borderColor='var(--bor)';this.style.boxShadow='none';this.style.transform='translateY(0)'">
-          <div class="cat-icon-box" style="background:${info.color}20">${CAT_ICONS[cat] || '🔩'}</div>
+          <div class="cat-image-box">
+  <img src="${CAT_IMAGES[cat] || 'assets/images/categories/default.jpg'}" alt="${cat}" loading="lazy">
+</div>
           <div>
             <div class="cat-name">${cat}</div>
             <div class="cat-count">${parts.length} parts available</div>
