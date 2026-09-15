@@ -104,14 +104,14 @@ const BRANDS = {
 };
 
 const CAT_IMAGES = {
-  Engine:        'assets/engine.jpg',
-  Suspension:    'assets/suspension.jpg',
-  Brakes:        'assets/brakes.jpg',
-  Electrical:    'assets/electrical.jpg',
-  'Fuel System': 'assets/fuel-system.jpg',
-  Transmission:  'assets/transmission.jpg',
-  'Body Parts':  'assets/body-parts.jpg',
-  Cooling:       'assets/cooling.jpg',
+  Engine:        'assets/engine.png',
+  Suspension:    'assets/suspension.png',
+  Brakes:        'assets/brakes.png',
+  Electrical:    'assets/electrical.png',
+  'Fuel System': 'assets/fuel-system.png',
+  Transmission:  'assets/transmission.png',
+  'Body Parts':  'assets/body-parts.png',
+  Cooling:       'assets/cooling.png',
 };
 
 /* ════════════════════════════════
