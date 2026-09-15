@@ -686,7 +686,7 @@ function renderProduct() {
           </div>
           <p class="det-desc">${desc}</p>
           ${notes ? `<div class="notes-box">📌 ${notes}</div>` : ''}
-          <a class="wa-big-btn" href="https://wa.me/8801707659954?text=${encodeURIComponent(waMsg)}" target="_blank">
+          <a class="wa-big-btn" href="https://wa.me/8801983498274?text=${encodeURIComponent(waMsg)}" target="_blank">
             💬 Order on WhatsApp
           </a>
           ${adminHtml}
