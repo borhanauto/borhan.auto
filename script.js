@@ -89,7 +89,7 @@ const BRANDS = {
   Hero: {
     color: '#e11d48',
    img: 'assets/hero.png',
-    models: ['Splendor Plus','Splendor Pro','HF Deluxe','Passion Pro','Glamour','Xpulse 200','Xtreme 160R','Destini 125','Maestro Edge','Pleasure Plus'],
+    models: ['Splendor Plus','Splendor Pro','HF Deluxe','Passion Pro','Glamour','Xpulse 200','Xtreme 160R','XTREME 125','Maestro Edge','Pleasure Plus'],
     cats: {
       Engine:       ['Piston Kit','Cylinder Kit','Cylinder Head','Valve Set','Crankshaft','Engine Gasket Set','Oil Filter','Timing Chain','Rocker Arm','Engine Oil Seal'],
       Suspension:   ['Telescopic Fork','Rear Shock Absorber','Fork Oil Seal','Bearing Set','Front Axle','Rear Axle'],
