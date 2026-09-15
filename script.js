@@ -581,8 +581,8 @@ function renderParts(filter = '') {
       <div class="inner-hero-grid"></div>
       <div class="inner-hero-inner">
         <div class="tag" style="color:${info.color};background:${info.color}20;border-color:${info.color}50">
-          ${CAT_ICONS[cat] || '🔩'} ${brand} ${model} — ${cat}
-        </div>
+  ${brand} ${model} — ${cat}
+</div>
         <h1>Available<br><em style="color:${info.color}">Spare Parts</em></h1>
         <p class="hero-sub">${parts.length} original parts for ${model}. Click any part to view details &amp; order.</p>
       </div>
