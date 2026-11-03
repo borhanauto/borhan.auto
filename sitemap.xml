@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1"
+        xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+          http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+
+  <!-- Homepage -->
+  <url>
+    <loc>https://borhanauto.github.io/borhan.auto/</loc>
+    <lastmod>2026-03-25</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+    <image:image>
+      <image:loc>https://borhanauto.github.io/borhan.auto/assets/logo.png</image:loc>
+      <image:title>Borhan Auto Parts Centre – Original Motorcycle Spare Parts Jessore</image:title>
+    </image:image>
+  </url>
+
+  <!-- Products / Parts Catalogue -->
+  <url>
+    <loc>https://borhanauto.github.io/borhan.auto/#products</loc>
+    <lastmod>2026-03-25</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <!-- Hero Honda Parts -->
+  <url>
+    <loc>https://borhanauto.github.io/borhan.auto/#hero-honda</loc>
+    <lastmod>2026-03-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Yamaha Parts -->
+  <url>
+    <loc>https://borhanauto.github.io/borhan.auto/#yamaha</loc>
+    <lastmod>2026-03-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Bajaj Parts -->
+  <url>
+    <loc>https://borhanauto.github.io/borhan.auto/#bajaj</loc>
+    <lastmod>2026-03-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- TVS Parts -->
+  <url>
+    <loc>https://borhanauto.github.io/borhan.auto/#tvs</loc>
+    <lastmod>2026-03-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Suzuki Parts -->
+  <url>
+    <loc>https://borhanauto.github.io/borhan.auto/#suzuki</loc>
+    <lastmod>2026-03-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Contact / WhatsApp Order -->
+  <url>
+    <loc>https://borhanauto.github.io/borhan.auto/#contact</loc>
+    <lastmod>2026-03-25</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <!-- About -->
+  <url>
+    <loc>https://borhanauto.github.io/borhan.auto/#about</loc>
+    <lastmod>2026-03-25</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+</urlset>
