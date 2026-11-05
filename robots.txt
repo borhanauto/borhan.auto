@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://borhanauto.github.io/borhan.auto/sitemap.xml

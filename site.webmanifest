@@ -1,0 +1,20 @@
+{
+  "name": "Borhan Auto Parts Centre – Genuine Motorcycle Spare Parts Bangladesh",
+  "short_name": "Borhan Auto",
+  "description": "100% genuine, original Bajaj, Yamaha, Suzuki, Hero, Honda and TVS motorcycle spare parts in Bangladesh. Jessore shop with nationwide delivery. Order on WhatsApp.",
+  "id": "/borhan.auto/",
+  "start_url": "/borhan.auto/?utm_source=pwa",
+  "scope": "/borhan.auto/",
+  "display": "standalone",
+  "orientation": "portrait-primary",
+  "background_color": "#07080a",
+  "theme_color": "#d62828",
+  "lang": "en-BD",
+  "dir": "ltr",
+  "categories": ["shopping", "automotive", "business"],
+  "icons": [
+    { "src": "/borhan.auto/assets/android-chrome-192x192.png", "sizes": "192x192", "type": "image/png", "purpose": "any" },
+    { "src": "/borhan.auto/assets/android-chrome-512x512.png", "sizes": "512x512", "type": "image/png", "purpose": "any" },
+    { "src": "/borhan.auto/assets/android-chrome-maskable-512x512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+  ]
+}
